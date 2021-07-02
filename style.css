@@ -645,25 +645,36 @@ footer a{
 
 /*Aca comienza Servicios*/
 
+#body__servicios{
+	background-image: linear-gradient(to bottom,darkblue,lightskyblue)
+
+}	
+
 .servicios{
-	
-	background-image: url(imagenServicios.jpg);
+	background-color: none;
 	width: 1219.2px;
 	height: 743px;
 	margin-left: 150px;
 	border-radius: 100px;
-	
+	display: grid;	
+	grid-template-rows: 80px 40px 350px;
+	grid-template-areas: 
+	"section__h1 "
+	"auto section__p auto"
+	"section__container"
+	;
+
 }
 
 .servicios__section{
 	display: grid;
-	grid-template-columns: 1519px;
-	grid-template-rows: 1114px;
+	grid-template-columns: 100%;
+	grid-template-rows: 700px;
 	grid-template-areas: 
 	"section__titulo"
 	;
 	justify-content: center;
-	background-image: url(img/imagenServicios.jpg);
+
 }
 
 .section__titulo{
@@ -675,8 +686,45 @@ footer a{
 	font-size: 25px;
 }
 
+.section__h1{
+	grid-area: section__h1;
+	text-align: center;
+	
+}
+.section__p{
+	grid-area: section__p;
+}
 
+.section__container{
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: 406.4px 406.4px 406.4px;
+	grid-template-rows: 300px;
+	grid-template-areas: 
+	"section__impresion3d section__diseno3d section__productos"
+	;
+	column-gap: 30px;
+}
 
+.section__impresion3d, .section__diseno3d, .section__productos{
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.section__impresion3d{
+	grid-area: section__impresion3d;
+	background-color: red;
+}
+.section__diseno3d{
+	grid-area: section__diseno3d;
+	background-color: white;
+}
+.section__productos{
+	grid-area: section__productos;
+	background-color: yellow;
+	
+}
 /*Aca finaliza Servicios*/
 
 
