@@ -663,6 +663,7 @@ footer a{
 	"section__titulo"
 	;
 	justify-content: center;
+	background-image: url(img/imagenServicios.jpg);
 }
 
 .section__titulo{
@@ -675,7 +676,11 @@ footer a{
 }
 
 
+
 /*Aca finaliza Servicios*/
+
+
+
 
 /*Aca comienza Media Querie*/
 
@@ -710,3 +715,4 @@ footer a{
 		height: 320px;
 	}
 }
+
