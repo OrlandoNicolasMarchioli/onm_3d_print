@@ -657,23 +657,24 @@ footer a{
 	margin-left: 150px;
 	border-radius: 100px;
 	display: grid;	
-	grid-template-rows: 80px 40px 350px;
+	grid-template-columns: 1219.2px;
+	grid-template-rows: 1000px;
 	grid-template-areas: 
-	"section__h1 "
-	"auto section__p auto"
-	"section__container"
+	"servicios__section"
 	;
-
 }
 
 .servicios__section{
+	grid-area: servicios__section;
 	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: 700px;
-	grid-template-areas: 
-	"section__titulo"
-	;
+	grid-template-columns: 1219.2px;
+	grid-template-rows: 70px 70px 500px;
 	justify-content: center;
+	grid-template-areas: 
+	"section__h1"
+	"section__p"
+	"section__container2"	
+	;
 
 }
 
@@ -696,6 +697,7 @@ footer a{
 }
 
 .section__container2{
+	grid-area: section__container2;
 	margin-top: 30px;
 	display: grid;
 	grid-template-columns: 406.4px 406.4px 406.4px;

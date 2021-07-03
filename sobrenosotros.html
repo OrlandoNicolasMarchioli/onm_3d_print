@@ -2,9 +2,10 @@
   <html lang="es">  
     <head>    
       <title>SOBRE NOSOTROS</title>    
-      <LINK rel=StyleSheet href="style.css" type="text/css" MEDIA=screen> 
+      <LINK rel=StyleSheet href="css/style.css" type="text/css" MEDIA=screen> 
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="animate.css">
     </head>  
     <body>
   
@@ -36,7 +37,7 @@
     <div class="sobreNosotros">
       <section class="sobreNosotros__section">
         <div class="section__title2">
-          <h1 class="title2__h1">Sobre Nosotros</h1>
+          <h1 class="title2__h1 wow bounceInUp">Sobre Nosotros</h1>
         </div>
         <div class="section__paragraph">
           <h2 class="paragraph__h2">
@@ -54,6 +55,9 @@
     </footer>
         
   
-  
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     </body>  
   </html>
