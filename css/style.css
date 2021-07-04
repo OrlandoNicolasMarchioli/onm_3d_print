@@ -11,7 +11,7 @@ body{
 }
 
 /*inicio header*/
-.nav{
+/*.nav{
 	height: 80px;
 	width: 100%;
 	background-image: linear-gradient(to right,darkblue,lightskyblue);
@@ -104,7 +104,7 @@ body{
 	transform: scale(1.1,1.1);
 	transition: 2s;
 }
-
+*/
 
 
 /*Aca termina header*/
@@ -645,124 +645,22 @@ footer a{
 
 /*Aca comienza Servicios*/
 
-#body__servicios{
-	background-image: linear-gradient(to bottom,darkblue,lightskyblue)
 
-}	
-
-.servicios{
-	background-color: none;
-	width: 1219.2px;
-	height: 743px;
-	margin-left: 150px;
-	border-radius: 100px;
-	display: grid;	
-	grid-template-columns: 1219.2px;
-	grid-template-rows: 1000px;
-	grid-template-areas: 
-	"servicios__section"
-	;
+.container{
+	margin-right: 10px;
 }
 
-.servicios__section{
-	grid-area: servicios__section;
-	display: grid;
-	grid-template-columns: 1219.2px;
-	grid-template-rows: 70px 70px 500px;
-	justify-content: center;
-	grid-template-areas: 
-	"section__h1"
-	"section__p"
-	"section__container2"	
-	;
-
-}
-
-.section__titulo{
-	grid-area: section__titulo;
-	text-align: center;
-	font-family: 'roboto', sans-serif;
-	margin-top: 25px;
+.navbar-brand .nav__logo{
 	color: white;
-	font-size: 25px;
 }
 
-.section__h1{
-	grid-area: section__h1;
-	text-align: center;
-	
-}
-.section__p{
-	grid-area: section__p;
-}
 
-.section__container2{
-	grid-area: section__container2;
-	margin-top: 30px;
-	display: grid;
-	grid-template-columns: 406.4px 406.4px 406.4px;
-	grid-template-rows: 300px;
-	grid-template-areas: 
-	"section__impresion3d section__diseno3d section__productos"
-	;
-	column-gap: 30px;
-}
 
-.section__impresion3d, .section__diseno3d, .section__productos{
-	align-items: center;
-	justify-content: center;
-	
-}
 
-.section__impresion3d{
-	grid-area: section__impresion3d;
-	background-color: red;
-}
-.section__diseno3d{
-	grid-area: section__diseno3d;
-	background-color: white;
-}
-.section__productos{
-	grid-area: section__productos;
-	background-color: yellow;
-	
-}
+
 /*Aca finaliza Servicios*/
 
 
 
 
 /*Aca comienza Media Querie*/
-
-@media screen and (min-width: 320px) and (max-width: 479px){
-	.nav{
-		display: grid;
-		margin: 0;
-		grid-template-columns: repeat(1,1fr);
-		grid-template-rows: 80px 80px 80px;
-		grid-template-areas: 
-		"nav__logo"
-		"nav__ul"
-		;
-		justify-content: space-between;
-		text-align: center;
-	}
-	.nav__logo{
-		display: grid;
-		grid-area: nav__logo;
-		font-size: 20px;
-		text-align: center;
-		margin-left: 0px;
-		width: 100%;
-		
-	}
-	.nav__ul{
-		grid-area: nav__ul;
-		text-align: center;
-	}
-	.fotoppal__img{
-		max-width: 320px;
-		height: 320px;
-	}
-}
-
