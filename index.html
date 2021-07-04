@@ -7,7 +7,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&display=swap" rel="stylesheet">      
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/animate.css">
+    
   </head>  
   <body>
 
@@ -50,7 +52,7 @@
         <!--<p> imagen uno con link y descripcion</p>-->
         <div class="enlace1__img">
           <a class="enlace1__a" href="productos.html">
-            <img class="enlaces__img" src="img/impresion.png" alt="">
+            <img class="enlaces__img WOW animate__backInLeft" src="img/impresion.png" alt="">
           </a>
         </div>
         <div class="enlace1__h2">
@@ -65,7 +67,7 @@
       <div class="enlace2">
         <!--<p> imagen dos con link y descripcion</p>-->
         <div class="enlace2__img">
-          <a class="enlace2__a" href="busqueda.html"><img class="enlaces__img" src="img/disenos.png" alt="">
+          <a class="enlace2__a" href="busqueda.html"><img class="enlaces__img WOW animate__backInUp" src="img/disenos.png" alt="">
           </a>
         </div>
         <div class="enlace2__h2">
@@ -80,7 +82,7 @@
         <!--<p> imagen tres con link y descripcion</p>-->
         <div class="enlace3__img">
           <a href="sobrenosotros.html">
-            <img class="enlaces__img" src="img/sobrenosotros.png" alt="" height="250px" width="250px">
+            <img class="enlaces__img WOW animate__backInRight" src="img/sobrenosotros.png" alt="" height="250px" width="250px">
           </a>
         </div>
         <div class="enlace3__h2">
@@ -131,6 +133,9 @@
       <h4>Redes sociales</h4>
       <a href="http://facebook.com/mi-pagina-de-facebook">Mi Facebook</a>
   </footer>
-      
+  <script src="js/wow.min.js"></script>
+  <script>    
+    new WOW().init();
+  </script>  
   </body>  
 </html>

@@ -180,12 +180,12 @@ body{
 	justify-content: space-around;
 }
 
-.enlaces__img:hover{
+/*.enlaces__img:hover{
 	transform: scale(1.05,1.05);
 	transition: 1.5s;	
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 
-}
+}*/
 
 .enlace1__h2{
 	color: black;
@@ -496,10 +496,10 @@ footer a{
 
 }
 
-.title__h1:hover{
+/*.title__h1:hover{
 	transform:scale(1.1,1.1);
 	transition: 2s;
-}
+}*/
 
 .section__instagram{
 	background-color: darkblue;
