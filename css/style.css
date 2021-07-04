@@ -496,10 +496,10 @@ footer a{
 
 }
 
-/*.title__h1:hover{
+.title__h1:hover{
 	transform:scale(1.1,1.1);
 	transition: 2s;
-}*/
+}
 
 .section__instagram{
 	background-color: darkblue;
