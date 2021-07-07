@@ -10,14 +10,14 @@ body{
 	background-color: white;
 }
 /*Inicio contenido*/
-.fotoppal{
-	width: 100%;
-}
-.fotoppal__img{
-	width: 100%;
-	height: 600px;
-}
 
+
+.nav-item:hover{
+	background-color: rgb(36, 221, 253);
+	padding: 2px;
+	border-radius: 8px;
+	transition: 1s;
+}
 .row__parrafo{
 	margin-bottom: 50px;
 }
@@ -37,11 +37,6 @@ body{
 	text-align: center;
 }
 
-/*.parrafo__titulo h1{
-	background-image: linear-gradient(to right,#0DCAF0,lightskyblue);
-	border-radius: 20px;
-}*/
-
 .parrafo__descripcion{	
     color: #0DCAF0;
 	font-family: 'Roboto', sans-serif;
@@ -49,11 +44,6 @@ body{
 	font-size: 18px;
 	line-height: 40px;
 }
-
-/*.parrafo__descripcion h2{
-	background-image: linear-gradient(to right,#0DCAF0,lightskyblue);
-	border-radius: 20px;
-}*/
 
 .enlaces{
 	display: flex;
@@ -84,12 +74,10 @@ body{
 	justify-content: space-around;
 }
 
-/*.enlaces__img:hover{
+.enlaces__img:hover{
 	transform: scale(1.05,1.05);
 	transition: 1.5s;	
-	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-
-}*/
+}
 
 .enlace1__h2{
 	color: #0DCAF0;
@@ -467,8 +455,7 @@ footer a{
 }
 
 .section__title{
-	background-color: darkblue;
-	border-radius: 80px;
+	background-color: #0DCAF0;	
 	margin-bottom: 20px;	
 	align-items: center;
 	grid-area: section__instagram;
@@ -498,8 +485,7 @@ footer a{
 }
 
 .section__instagram{
-	background-color: darkblue;
-	border-radius: 80px;
+	background-color: #0DCAF0;	
 	padding: 10px;	
 	margin-bottom: 20px;	
 	align-items: center;
@@ -541,8 +527,7 @@ footer a{
 }
 
 .section__mail{
-	background-color: darkblue;
-	border-radius: 80px;
+	background-color: #0DCAF0;	
 	padding: 10px;	
 	margin-bottom: 20px;
 	justify-content: center;
