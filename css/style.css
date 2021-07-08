@@ -22,6 +22,11 @@ body{
 	margin-bottom: 50px;
 }
 
+.carousel__index__img{
+	width: 100%;
+	height: 900px;
+}
+
 .parrafo{
 	display: flex;
 	height: 150px;
@@ -294,7 +299,12 @@ footer a{
 
 .container__productos__img{
 	width: 100%;
-	opacity: 1.1;
+	height: 1000px;
+}
+
+.carousel__productos__img{
+	height: 800px;
+	width: 100%;
 }
 
 .container__tituloProductos__h1{
@@ -330,6 +340,23 @@ footer a{
 	color: white;
 	transition: 0.8s;	
 }
+
+.container__busqueda{
+	height: 200px;
+	background-color: #0DCAF0;
+}
+
+.col__titulo__busqueda{
+	color: white;
+	font-family: 'roboto', sans-serif;
+	padding: 15px;	
+}
+
+.col__titulo__parrafo{
+	color: white;
+	font-family: 'roboto', sans-serif;
+}
+
 
 
 .footer{
