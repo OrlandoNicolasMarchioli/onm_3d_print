@@ -292,131 +292,45 @@ footer a{
 
 /*Aca comienza CSS productos*/
 
-.title{
-	display: flex;
-	background-color: darkblue;
-	width: auto;
-	height: 80px;
-	font-family: 'roboto', sans-serif;
-	color: white;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 50px;
-	margin-top: -50px;
-	border-radius: 80px;
+.container__productos__img{
+	width: 100%;
+	opacity: 1.1;
 }
 
-.contenedor{
-	background-color:lightskyblue;
+.container__tituloProductos__h1{
+	color: #0DCAF0;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 20px;
 }
 
-.productos{
-	background-color: lightskyblue;
+
+
+.container__tituloProductos__enlace{
+	border: solid 4px #0DCAF0;
+	border-radius: 10px;
+	padding: 5px;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+
+.container__tituloProductos__h2{
+	color: #0DCAF0;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 4px;
 	
-	display: grid;
-	grid-template-columns: 400px 400px;
-	grid-template-rows: 400px 400px;
-	grid-template-areas: 
-	"mates macetas"
-	"soportes buscaProductos"	
-	;
-	justify-content: space-evenly;
-	row-gap: 40px;
-	margin-bottom: 100px;
 }
 
-
-.productos__mates{
-	display: grid;
-	justify-content: center;
-	align-items: center;
-	grid-area: mates;
-	background-color: darkblue;
-	border: solid 1px black;
-	border-radius: 40px;
-	align-items: center;
+.container__tituloProductos__enlace:hover{
+	background-color: #0DCAF0;	
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	transition: 1s;
 }
 
-.productos__a:hover{
-	transform: scale(1.1,1.1);
-	transition: 2s;
-}
-
-.mates__h2{
+.container__tituloProductos__h2:hover{
 	color: white;
-	font-family: 'roboto', sans-serif;
-	text-align: center;
-	background-color: lightskyblue;
-	padding: 5px;
-	border-radius: 16px;
-
+	transition: 0.8s;	
 }
 
-.productos__macetas{
-	display: grid;
-	justify-content: space-around;
-	grid-area: macetas;
-	background-color: #00008b;	
-	align-items: center;
-	border-radius: 40px;
-}
-
-.macetas__h2{
-	color: white;
-	font-family: 'roboto', sans-serif;
-	text-align: center;
-	background-color: lightskyblue;
-	padding: 5px;
-	border-radius: 16px;
-
-}
-
-
-.productos__soportes{
-	display: grid;
-	justify-content: space-around;
-	grid-area: soportes;
-	align-items: center;
-	background-color: darkblue;
-	border-radius: 40px;
-}
-
-.soportes__h2{
-	color: white;
-	font-family: 'roboto', sans-serif;
-	text-align: center;
-	background-color: lightskyblue;
-	padding: 5px;
-	border-radius: 16px;
-
-}
-
-
-.productos__buscaProductos{
-	display: grid;
-	justify-content: space-around;
-	align-items: center;
-	grid-area: buscaProductos;
-	background-color: darkblue;
-	border-radius: 40px;
-}
-
-.buscaProductos__h2{
-	color: white;
-	font-family: 'roboto', sans-serif;
-	text-align: center;
-	background-color: lightskyblue;
-	padding: 5px;
-	border-radius: 16px;
-
-}
-
-
-.productos__mates a img,.productos__macetas a img,.productos__soportes a img,.productos__buscaProductos a img{
-	height: 300px;
-	width: auto;
-	border-radius: 40px;
-}
 
 .footer{
 	width: 100%;
