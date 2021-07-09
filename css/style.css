@@ -379,6 +379,10 @@ footer a{
 	font-family: 'roboto', sans-serif;
 }
 
+.col__links{
+	height: 250px;
+}
+
 .col__enlaces{
 	color: #0DCAF0;
 	font-family: 'roboto', sans-serif;
@@ -386,14 +390,39 @@ footer a{
 
 .container__descargas__iframe{
 	border-radius: 20px;
-	
+	width: 100%;
 }
 
-.col__enlaces__stl__a{
-	text-decoration: none;
+
+
+.col__enlaces__stl__a__imgThingiverse{
+	width: 50px;
+	height: 50px;
+}
+
+.col__enlaces__stl__a__imgCults{
+	width: 100px;
+	height: 50px;
+
+}
+
+.col__enlaces__stl__a__imgMyMiniFactory{
+	width: 100px;
+	height: 60px;
+}
+
+.col__enlaces__stl__a__imgSketchfab{
+	width: 50px;
+	height: 50px;
+}
+
+
+
+.col__pagina__h2{
 	font-size: 25px;
 	font-family: 'roboto', sans-serif;
 	color: #0DCAF0;
+	margin-top: 10px;
 }
 
 
