@@ -342,21 +342,59 @@ footer a{
 }
 
 .container__busqueda{
-	height: 200px;
+	height: 10%;
 	background-color: #0DCAF0;
 }
 
 .col__titulo__busqueda{
 	color: white;
 	font-family: 'roboto', sans-serif;
-	padding: 15px;	
+	padding: 15px;
+	
 }
 
-.col__titulo__parrafo{
+.col__titulo__parrafo1{
 	color: white;
+	font-family: 'roboto', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	
+}
+.col__titulo__parrafo2{
+	color: white;
+	font-family: 'roboto', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+.container__titulos__descarga{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.col__tituloDescarga{
+	color: #0DCAF0;
 	font-family: 'roboto', sans-serif;
 }
 
+.col__enlaces{
+	color: #0DCAF0;
+	font-family: 'roboto', sans-serif;
+}
+
+.container__descargas__iframe{
+	border-radius: 20px;
+	
+}
+
+.col__enlaces__stl__a{
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'roboto', sans-serif;
+	color: #0DCAF0;
+}
 
 
 .footer{
