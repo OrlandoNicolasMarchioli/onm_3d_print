@@ -12,11 +12,33 @@ body{
 /*Inicio contenido*/
 
 
+.navbar{
+	background-color: #0DCAF0;	
+	
+}
+
+
+.navbar-light .navbar-brand{
+	color: white;
+	font-size: x-large;
+	margin-left: 35%;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+	color: white
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+
+	
+
 .nav-item:hover{
-	background-color: rgb(36, 221, 253);
-	padding: 2px;
+	background-color: rgb(36, 221, 253);	
 	border-radius: 8px;
 	transition: 1s;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 .row__parrafo{
 	margin-bottom: 50px;
@@ -49,29 +71,13 @@ body{
 	font-size: 18px;
 	line-height: 40px;
 }
-
-.enlaces{
-	display: flex;
-	flex-direction: row;
-	height: 400px;
-	width: 100%;
-	margin-top: 30px;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: top;	
-}
-
-
-
-.enlace1{
-	background-color: none;
-	height: 350px;
-	width: 300px;
+.enlace1{	
+		
 	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: top;
+	
 }
 
 .enlace1__img{
@@ -101,15 +107,12 @@ body{
 	font-size: 20px;
 }
 
-.enlace2{
-	background-color: none;
-	height: 350px;
-	width: 300px;
+.enlace2{	
+		
 	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: top;
+	justify-content: center;	
 }
 
 .enlace2__img{
