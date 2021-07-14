@@ -12,26 +12,11 @@ body{
 /*Inicio contenido*/
 
 
-.navbar{
-	background-color: #0DCAF0;	
-	
-}
-
-
 .navbar-light .navbar-brand{
-	color: white;
+	
 	font-size: x-large;
 	margin-left: 35%;
 }
-
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
-	color: white
-}
-
-.navbar-light .navbar-nav .nav-link{
-	color: white;
-}
-
 	
 
 .nav-item:hover{
@@ -129,13 +114,10 @@ body{
 }
 
 .enlace3{
-	background-color: none;
-	height: 300px;
-	width: 300px;
+	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: top;
 }
 
 .enlace3__img{
@@ -206,10 +188,7 @@ body{
 	
 }
 
-.row__sticker__container{
-	align-items: center;
-	justify-content: center;
-}
+
 
 .col__stickers{
 	width: 1000px;
@@ -253,26 +232,26 @@ body{
 .col__asistenciaTecnica{
 	color: #0DCAF0;
 	font-family: 'Roboto', sans-serif;	
-	margin-top: -30px;
+
 }
 
 .col__disenosAMedida{
 	color: #0DCAF0;
 	font-family: 'Roboto', sans-serif;
 	
-	margin-top: -30px;
+
 }
 
 .col__enviosATodoElPais{
 	color: #0DCAF0;
 	font-family: 'Roboto', sans-serif;	
-	margin-top: -30px;
+
 }
 
 .col__postVenta{
 	color: #0DCAF0;
 	font-family: 'Roboto', sans-serif;	
-	margin-top: -30px;
+	
 }
 
 .col__descripcion{
