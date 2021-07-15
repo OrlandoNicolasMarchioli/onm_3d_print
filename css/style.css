@@ -30,7 +30,8 @@ body{
 }
 
 .carousel__index__img{
-	width: 100%;
+	object-fit: cover;
+	object-position: center;
 	height: 900px;
 }
 
@@ -145,9 +146,7 @@ body{
 	display: block;
 }
 
-.container__videos{
-	margin-top: 50px;
-}
+
 
 .contenido__title{
 	text-align: center;
@@ -158,9 +157,7 @@ body{
 
 
 .columna__video{
-	justify-content: center;
-	text-align: center;
-	align-self: bottom;
+	margin-top: 2fr;
 	height: 270px;
 	width: 400px;
 	
@@ -184,27 +181,16 @@ body{
 
 .container__stickers{
 	margin-top: 50px;
-	width: 1000px;
+	width: 100%;
 	
 }
 
-
-
-.col__stickers{
-	width: 1000px;
-	height: 80px;	
-	text-align: center;	
-	
-}
 .col__img{
-	border-radius: 100px;
+	border-radius: 150px;
 	background-color: #0DCAF0;
 	width: 80px;
 	height: 80px;	
-	text-align: center;
-	align-content: space-between;
-	
-	
+	text-align: center;	
 }
 
 .col__img1{
@@ -231,7 +217,8 @@ body{
 
 .col__asistenciaTecnica{
 	color: #0DCAF0;
-	font-family: 'Roboto', sans-serif;	
+	font-family: 'Roboto', sans-serif;
+	text-align: center;	
 
 }
 
@@ -245,12 +232,14 @@ body{
 .col__enviosATodoElPais{
 	color: #0DCAF0;
 	font-family: 'Roboto', sans-serif;	
+	text-align: center;	
 
 }
 
 .col__postVenta{
 	color: #0DCAF0;
-	font-family: 'Roboto', sans-serif;	
+	font-family: 'Roboto', sans-serif;
+	text-align: center;		
 	
 }
 
@@ -258,7 +247,8 @@ body{
 	color: lightskyblue;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
-	margin-top: -55px;
+	text-align: center;	
+	
 }
 
 

@@ -49,13 +49,13 @@
     </nav>
       
 
-    <div class="container-fluid w-100">
+    <div class="container-fluid ">
       <div class="row">
-        <div class="col col-sm-12 col-md-12 col-lg-12">
+        <div class="col col-sm-12 col-md-12 col-lg-12 carousel__index__img">
           <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner carousel__index">
               <div class="carousel-item active" data-bs-interval="2000">
-                <img class="carousel__index__img" src="img/imgCarrousel/carrousel3.jpg" class="d-block w-100" alt="...">
+                <img class="carousel__index" src="img/imgCarrousel/carrousel3.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item" data-bs-interval="3500">
                 <img class="carousel__index__img" src="img/imgCarrousel/carrousel2.jpg" class="d-block w-100" alt="...">
@@ -157,7 +157,7 @@
       <div class="container-flow ">
         <div class="row bg-info">
 
-          <div class="col-12 col-sm-12 col-md-4 col-lg-4 columna__titulo"><!--Container titulos-->
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center  columna__titulo"><!--Container titulos-->
             <div class="contenido__title">
               <h2>¿Qué es la impresion 3D?</h2> 
             </div>
@@ -167,16 +167,15 @@
             </div>                    
           </div>     
           
-          <div class="col-12 col-sm-12 col-md-4 col-lg-4  columna__titulo">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center  columna__titulo">
             <div class="contenido__title">              
-            <h2>¿Qué tipo de material utilizamos?</h2>    
-            <br>  
+            <h2>¿Qué tipo de material utilizamos?</h2>               
             </div>
             <div class="columna__video"> 
               <iframe class='contenido__iframe' data-aos="zoom-in-down" src="https://www.youtube.com/embed/4xHwCWh7yGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-4 col-lg-4 columna__titulo">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center columna__titulo">
             <div class="contenido__title">
               <h2>¿Qué tipos de impresiones existen?</h2>  
             </div>
@@ -186,10 +185,11 @@
           </div>
         </div>
       </div>
+    </div>
 
 
     <!--Aca comienza el espacio de stickers-->
-    <div class="container-flow d-flex flex-column bg-light">
+    <div class="container-flow d-flex flex-column ">
       
       <div class="row">
         <div class="col-12">
@@ -198,12 +198,13 @@
           </h2>
         </div>
       </div>
+    </div>
       
 
-      
-      <div class="row d-flex flex-column row__sticker__container">
+    <div class="container-flow"> 
+      <div class="row d-flex justify-content-around container__stickers">
 
-        <div class="col-3 d-flex flex-col col__stickers">
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 d-flex flex-column align-items-center col__stickers">
           <div class="col__img d-flex align-items-center justify-content-center">
             <img class="col__img1" src="img/imgServicios/herramientas.png" alt="">
           </div>
@@ -217,11 +218,11 @@
           </div>
         </div>
 
-        <div class="col-3 d-flex flex-col col__stickers">
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 d-flex flex-column align-items-center col__stickers">
           <div class="col__img d-flex align-items-center justify-content-center">
             <img class="col__img2" src="img/imgServicios/imagenNotebook.png" alt="">
           </div>
-          <div class="col col__h3">
+          <div class="col__h3">
             <h3 class="col__enviosATodoElPais">
               Envíos a todo el país
             </h3>
@@ -231,7 +232,7 @@
           </div>
         </div>
 
-        <div class="col-3 d-flex flex-col col__stickers">
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 d-flex flex-column align-items-center col__stickers">
           <div class="col__img d-flex align-items-center justify-content-center">
             <img class="col__img3" src="img/imgServicios/imagenCamion.png" alt="">
           </div>
@@ -245,11 +246,11 @@
           </div>
         </div>
 
-        <div class="col-3 d-flex flex-col col__stickers">
+        <div class="col-12 col-sm-12 col-md-3 col-lg-3 d-flex flex-column align-items-center col__stickers">
           <div class="col__img d-flex align-items-center justify-content-center">
             <img class="col__img4" src="img/imgServicios/postVenta.jgp.png" alt="">
           </div>
-          <div class="col col__h3 d-flex justify-content-center">
+          <div class="col col__h3">
             <h3 class="col__postVenta">
               Post-Venta
             </h3>
