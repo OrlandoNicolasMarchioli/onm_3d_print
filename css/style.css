@@ -30,9 +30,10 @@ body{
 }
 
 .carousel__index__img{
-	object-fit: cover;
+	height: 110vh;
 	object-position: center;
-	height: 900px;
+	object-fit: cover;
+	
 }
 
 .parrafo{
@@ -184,6 +185,7 @@ body{
 	width: 100%;
 	
 }
+	
 
 .col__img{
 	border-radius: 150px;
