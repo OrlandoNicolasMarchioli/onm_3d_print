@@ -29,13 +29,6 @@ body{
 	margin-bottom: 50px;
 }
 
-.carousel__index__img{
-	height: 110vh;
-	object-position: center;
-	object-fit: cover;
-	
-}
-
 .parrafo{
 	display: flex;
 	height: 150px;
@@ -274,11 +267,13 @@ footer a{
 .container__productos__img{
 	width: 100%;
 	height: 1000px;
+	
 }
 
 .carousel__productos__img{
 	height: 800px;
 	width: 100%;
+	margin-top: 2fr;
 }
 
 .container__tituloProductos__h1{
