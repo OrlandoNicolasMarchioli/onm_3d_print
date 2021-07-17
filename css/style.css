@@ -409,54 +409,28 @@ footer a{
 /*Aca inicia contactos*/
 .contactoContainer{
 	margin-top: 0px;
-	display: grid;
-	grid-template-columns: 960px 559.2px;
-	grid-template-rows: 640px 80px;
-	grid-template-areas: 
-	"contacto__foto section__container"
-	"contacto__footer contacto__footer"
-	;
+	background-color: lightskyblue;
 }
 
-.section__container{
+.contacto__foto{
+	width: 100%;
+}
+
+.section__contacto{
 	background-color: lightskyblue;
-	display: grid;
-	grid-area: section__container;
-	grid-template-columns: 559.2px;
-	grid-template-rows: 70px 70px;
-	grid-template-areas: 
-	"section__title"
-	"section_instagram"
-	"section__mail"	
-	;
-	
-	justify-content: center;
-	align-content: center;
 }
 
 .section__title{
+	height: 5rem;
 	background-color: #0DCAF0;	
-	margin-bottom: 20px;	
-	align-items: center;
-	grid-area: section__instagram;
-	display: grid;
-	grid-template-columns: 559.2px;
-	grid-template-rows: 70px;
-	grid-template-areas: 
-	"title__h1"
-	;
-	
+	margin-bottom: 2rem;		
 }
 
 .title__h1{
 	color: white;
-	font-family: 'roboto', sans-serif;
-	display: grid;
-	grid-area: title__h1;
-	background-color: none;
-	justify-content: center;
+	font-family: 'roboto', sans-serif;	
 	font-size: 40px;
-
+	text-align: center;
 }
 
 .title__h1:hover{
@@ -467,26 +441,15 @@ footer a{
 .section__instagram{
 	background-color: #0DCAF0;	
 	padding: 10px;	
-	margin-bottom: 20px;	
-	align-items: center;
-	grid-area: section__instagram;
-	display: grid;
-	grid-template-columns: 70px 489.2px;
-	grid-template-rows: 70px;
-	grid-template-areas: 
-	"instagram__link instagram__h3"
-	;
-	
+	height: 5rem;
+	margin-bottom: 2rem;	
 }
 
 .instagram__link{
-	
-	display: grid;
-	grid-area: instagram__link;
-	background-color: none;
 	border-radius: 50px;
 	width: 70px;
-	height: 70px;	
+	height: 70px;
+	margin-left: 1rem;	
 }
 
 .instagram__link:hover{
@@ -494,42 +457,23 @@ footer a{
 	transition: 1s;
 }
 
-.instagram__h3{
-	background-color: none;
-	display: grid;
-	grid-area: instagram__h3;	
-	align-items: center;
+.instagram__h3{	
+	
 	color: white;
 	font-family: 'roboto', sans-serif;
-	font-size: 20px;
-	
-	
+	font-size: 20px;	
 }
 
 .section__mail{
 	background-color: #0DCAF0;	
-	padding: 10px;	
-	margin-bottom: 20px;
-	justify-content: center;
-	align-items: center;
-	grid-area: section__mail;
-	display: grid;
-	grid-template-columns: 70px 489.2px;
-	grid-template-rows: 70px;
-	grid-template-areas: 
-	"mail__link mail__h3"
-	;
+	padding: 10px;
+	height: 5rem;
 }
 
 .mail__link{
-	margin-left: 15px;
-	display: grid;
-	grid-area: mail__link;
-	background-color: none;
-	border-radius: 50px;
-	width: 55px;
+	margin-left: 1.3rem;	
+    width: 55px;
 	height: 55px;
-	
 }
 
 .mail__link:hover{
@@ -538,11 +482,7 @@ footer a{
 }
 
 .mail__h3{
-	background-color: none;
 	margin-left: 10px;
-	display: grid;
-	grid-area: mail__h3;
-	align-items: center;
 	color: white;
 	font-family: 'roboto', sans-serif;
 	font-size: 20px;
@@ -557,73 +497,15 @@ footer a{
 
 /*Aca finaliza contactos*/
 
-/*Aca comienza sobreNosotros*/
 
-.sobreNosotros{
-	background-image: url(img/sobreNosotros.jpg);
-	width: 1519.2px;
-	height: 1375px;
-}
-
-.sobreNosotros__section{
-	
-	display: grid;
-	grid-template-columns: 600px;
-	grid-template-rows: 100px 300px;
-	grid-template-areas: 
-	"section__title2"
-	"section__paragraph"
-	;
-}
-
-.section__title2{
-	background-color: transparent;
-	grid-area: section__title2;
-	font-family: 'roboto', sans-serif;
-	font-size: 20px;
-
-}
-
-.title2__h1{
-	color: black;
-	text-align: center;
-	margin-top: 100px;
-	margin-left: 20px;
-}
-
-.title2__h1:hover, .section__paragraph:hover{
-	text-shadow: 4px 2px 2px grey;
-	transition: 1s;
-}
-	
-.section__paragraph{
-	background-color: transparent;
-	grid-area: section__paragraph;
-	font-family: 'roboto', sans-serif;
-	color: black;
-	text-align: center;
-	margin-top: 50px;
-	margin-left: 20px;
-}
-
-.sobreNosotros__footer{
-	height: 80px;
-	width: 100%;
-}
 
 /*Aca comienza Servicios*/
 
-
-.container{
-	margin-right: 10px;
+.footer__servicios{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
 }
-
-.navbar-brand .nav__logo{
-	color: white;
-}
-
-
-
 
 
 /*Aca finaliza Servicios*/
