@@ -271,9 +271,11 @@ footer a{
 }
 
 .carousel__productos__img{
-	height: 800px;
-	width: 100%;
-	margin-top: 2fr;
+	height: 700px;
+	width: 90%;
+	text-align: center;
+	margin-top: 1em;
+	border-radius: 10px;
 }
 
 .container__tituloProductos__h1{
@@ -311,7 +313,7 @@ footer a{
 }
 
 .container__busqueda{
-	height: 10%;
+	height: 30%;
 	background-color: #0DCAF0;
 }
 
@@ -334,7 +336,8 @@ footer a{
 	font-family: 'roboto', sans-serif;
 	text-align: center;
 	font-size: 25px;
-	
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .container__titulos__descarga{
