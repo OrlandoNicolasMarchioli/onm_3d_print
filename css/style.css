@@ -29,16 +29,7 @@ body{
 	margin-bottom: 50px;
 }
 
-.parrafo{
-	display: flex;
-	height: 150px;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center
-}
-
-.parrafo__titulo{
-	background-color: none;
+.parrafo__titulo{	
     color: #0DCAF0;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
@@ -149,7 +140,6 @@ body{
 	font-family: 'roboto', sans-serif;
 	color: white;
 }
-
 
 .columna__video{
 	
@@ -265,6 +255,60 @@ footer{
 footer a{	
 	color: white;
 }
+
+@media (max-width: 576px){
+	.navbar-light .navbar-brand{
+		margin-left: 0%;
+	}	
+	.carousel-inner{
+		margin-top: 4rem;
+		width: 100%;		
+	}
+	.col__parrafo{
+		margin-top: 0;
+	}
+	.parrafo__descripcion__h2{		
+		font-size: 16px;
+	}
+	.enlace1__h2__h2{
+		font-size: 3rem;
+	}
+	.enlace2__h2__h2{
+		font-size: 3rem;
+	}
+	.enlace3__h2__h2{
+		font-size: 3rem;
+	}
+	.container__videos{
+		margin-top: -2rem;
+	}
+	
+	.columna__video{
+		max-width: 500px;
+		text-align: center;
+	}
+	
+	.contenido__iframe{
+		width: 80%;
+	}
+
+	.columna__titulo2{
+		margin-top: -3rem;
+	}
+	.container__h2{
+		font-size: 2rem;
+	}
+	.col__stickers{
+		margin-bottom: 20px;
+	}
+
+}
+	
+
+
+
+
+/*Aca termina CSS index*/
 
 /*Aca comienza CSS productos*/
 
