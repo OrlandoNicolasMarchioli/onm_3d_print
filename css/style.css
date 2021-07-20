@@ -458,13 +458,10 @@ footer a{
 		text-align: center;
 	}
 	.carousel__productos__img {
-		display: flex;
 		height: 300;
-		width: 90%;
-		text-align: center;
-		margin-top: 1rem;
+		width: 100%;
+		margin-top: -1rem;
 		border-radius: 10px;
-		align-items: center;
 	}
 }
 
