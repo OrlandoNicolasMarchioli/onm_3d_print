@@ -144,20 +144,22 @@ body{
 
 .contenido__title{
 	text-align: center;
-	margin-top: 25px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 	font-family: 'roboto', sans-serif;
 	color: white;
 }
 
 
 .columna__video{
-	margin-top: 2fr;
+	
 	height: 270px;
 	width: 400px;
 	
 }
 
 .contenido__iframe{
+	
 	height: 200px;
 	width: 400px;
     border-radius: 8px;
@@ -167,6 +169,7 @@ body{
 	color: #0DCAF0;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	margin-top: 2rem;
 }
 
 .container__finDePagina{
@@ -534,6 +537,7 @@ footer a{
 .col__imgProductos{
 	width: 200px;
 	height: 200px;
+	padding: 5px;
 }
 
 
