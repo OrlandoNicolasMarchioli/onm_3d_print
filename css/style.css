@@ -361,7 +361,7 @@ footer a{
 	background-color: #0DCAF0;
 }
 
-.col__titulo__busqueda{
+.col__titulo__busqueda2{
 	color: white;
 	font-family: 'roboto', sans-serif;
 	padding: 15px;
@@ -458,10 +458,51 @@ footer a{
 		text-align: center;
 	}
 	.carousel__productos__img {
-		height: 300;
-		width: 100%;
-		margin-top: -1rem;
+		height: 400px;
+		width: 100%;		
 		border-radius: 10px;
+		margin-top: -3rem;
+	}
+	#carouselExampleControls1{
+		margin-bottom: 3rem;
+	}
+	#carouselExampleControls3{
+		margin-bottom: 2rem;
+	}
+	.container__busqueda{
+		margin-top: 7rem;		
+	}
+	.col__titulo__busqueda{		
+		background-color: #0DCAF0;
+	}
+	.col__titulo__busqueda2{
+		padding: 0;
+		font-size: 2rem;
+		text-align: center;
+	}
+	.col__titulo__parrafo1{
+		background-color: #0DCAF0;
+	}
+	.col__titulo__parrafo2{
+		background-color: #0DCAF0;
+		font-size: 1rem;
+	}
+	.container__titulos__descarga{
+		margin-top: 6rem;
+		text-align: center;
+	}
+	.container__descargas__iframe{
+		margin-top: 1rem;
+		height: 250px;
+		border-radius: 0px;
+	}
+	.container__enlacesDeBusqueda{
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		text-align: center;		
+	}
+	.col__enlaces{
+		font-size: 2rem;
 	}
 }
 
@@ -621,5 +662,3 @@ footer a{
 
 
 
-
-/*Aca comienza Media Querie*/
