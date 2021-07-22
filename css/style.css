@@ -318,7 +318,7 @@ footer a{
 	height: 700px;
 	width: 90%;
 	text-align: center;
-	margin-top: 1em;
+	margin-top: 1rem;
 	border-radius: 10px;
 }
 
@@ -504,6 +504,9 @@ footer a{
 	.col__enlaces{
 		font-size: 2rem;
 	}
+	.footer{
+		height: 8rem;
+	}
 }
 
 /*Aca termina productos*/
@@ -596,6 +599,27 @@ footer a{
 	width: 100%;
 }
 
+@media (max-width: 576px){
+	.contactoContainer{
+		background-color: white;
+	}	
+	.section__contacto{
+		background-color: #0DCAF0;
+		margin-bottom: 4rem;
+	}
+	.section__instagram{
+		margin-top: -2rem;
+		text-align: left;
+	}
+	.section__mail{
+		margin-top: -2rem;
+		text-align: left;
+	}
+	footer{
+		height: 8rem;
+	}
+}
+
 
 /*Aca finaliza contactos*/
 
@@ -655,6 +679,28 @@ footer a{
 	margin-top: 1rem;
 }
 
+@media (max-width: 576px){
+	.container__imagenServicios{
+		margin-top: 3.9rem;
+		width: 100%;
+	}
+	.col__imgServicios{
+		width: 250px;
+		height: 250px;
+	}
+	.col__imgImpresion3d{
+		width: 200px;
+		height: 200px;
+	}
+	.col__imgDiseno3d{
+		width: 170px;
+		height: 170px;
+	}
+	.col__imgProductos{
+		width: 170px;
+		height: 170px;
+	}
+}
 
 
 
