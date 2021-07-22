@@ -256,7 +256,7 @@ footer a{
 	color: white;
 }
 
-@media (max-width: 768px){
+@media (max-width: 576px){
 	.navbar-light .navbar-brand{
 		margin-left: 0%;
 	}	
@@ -446,7 +446,7 @@ footer a{
 	background-color: #0DCAF0;
 }
 
-@media (max-width: 768px){
+@media (max-width: 576px){
 	.containerImg__productos{
 		margin-top: 3rem;
 	}
@@ -599,7 +599,7 @@ footer a{
 	width: 100%;
 }
 
-@media (max-width: 768px){
+@media (max-width: 576px){
 	.contactoContainer{
 		background-color: white;
 	}	
@@ -679,7 +679,7 @@ footer a{
 	margin-top: 1rem;
 }
 
-@media (max-width: 768px){
+@media (max-width: 576px){
 	.container__imagenServicios{
 		margin-top: 3.9rem;
 		width: 100%;
