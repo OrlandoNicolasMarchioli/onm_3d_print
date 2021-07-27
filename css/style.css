@@ -318,6 +318,15 @@ footer a{
 	border-radius: 10px;
 }
 
+.carousel__productos__img2{
+	height: 600px;
+	width: 70%;
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+}
+
 .container__tituloProductos__h1{
 	color: #0DCAF0;
 	font-family: 'Roboto', sans-serif;
@@ -340,6 +349,13 @@ footer a{
 	margin-top: 4px;
 	
 }
+
+.carousel__inferior{
+	margin-top: 3rem;
+	width: 700px;
+}
+
+
 
 .container__tituloProductos__enlace:hover{
 	background-color: #0DCAF0;	
