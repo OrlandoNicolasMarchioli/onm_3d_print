@@ -798,3 +798,88 @@ footer a{
 }
 
 /*Aca finaliza macetas*/
+
+/*Aca comienza soportes*/
+
+.container__tituloSoportes__h2{
+	color: #0DCAF0;
+	font-size: 4rem;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.container__general__soportes{
+	background-color: #0DCAF0;
+	border-radius: 8px;
+}
+
+.container__soportes{
+	
+	margin-top: 2rem;
+}
+
+.container__soportes__soporte{
+	height: 400px;
+	width: 400px;
+	border-radius: 8px;
+}
+
+.container__soportes__soporte:hover{
+	transform: scale(1.05,1.05);
+}
+
+.container__soportes__h2{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container__soportes__ultimaFila{
+	margin-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+
+/*Aca finaliza soportes*/
+
+/*Aca comienza lamparas*/
+
+.container__tituloLamparas__h2{
+	color: #0DCAF0;
+	font-size: 4rem;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.container__general__lamparas{
+	background-color: #0DCAF0;
+	border-radius: 8px;
+}
+
+.container__lamparas{
+	
+	margin-top: 2rem;
+}
+
+.container__lamparas__lampara{
+	height: 500px;
+	width: 500px;
+	border-radius: 8px;
+}
+
+.container__lamparas__lampara:hover{
+	transform: scale(1.05,1.05);
+}
+
+.container__lamparas__h2{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container__lamparas__ultimaFila{
+	margin-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+/*Aca finaliza lamparass*/
