@@ -22,7 +22,7 @@ body{
 .nav-item:hover{
 	background-color: rgb(36, 221, 253);	
 	border-radius: 8px;
-	transition: 1s;
+	transition: 0.5s;
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 .row__parrafo{
