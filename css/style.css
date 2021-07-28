@@ -312,7 +312,7 @@ footer a{
 
 .carousel__productos__img{
 	height: 700px;
-	width: 90%;
+	width: 80%;
 	text-align: center;
 	margin-top: 1rem;
 	border-radius: 10px;
@@ -350,9 +350,33 @@ footer a{
 	
 }
 
+.carousel-control-prev-icon{
+	background-color: #0DCAF0;
+	color: #0DCAF0;
+	border-radius: 50px;
+	width: 40px;
+	height: 40px;
+}
+
+.carousel-control-next-icon{
+	background-color: #0DCAF0;
+	color: #0DCAF0;
+	border-radius: 50px;
+	width: 40px;
+	height: 40px;
+}
+
 .carousel__inferior{
 	margin-top: 3rem;
-	width: 700px;
+	
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+	text-align: center;
+}
+
+.carousel__productos__imgInf{
+	width: 850px;
 }
 
 
@@ -898,4 +922,46 @@ footer a{
 	padding-bottom: 2rem;
 }
 
-/*Aca finaliza lamparass*/
+/*Aca finaliza lamparas*/
+
+/* Aca comienza lapiceros y organizadores */
+
+.container__tituloLapicerosYOrganizadores__h2{
+	color: #0DCAF0;
+	font-size: 4rem;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.container__general__LapicerosYOrganizadores{
+	background-color: #0DCAF0;
+	border-radius: 8px;
+}
+
+.container__LapicerosYOrganizadores{
+	
+	margin-top: 2rem;
+}
+
+.container__LyOs__LyO{
+	height: 500px;
+	width: 500px;
+	border-radius: 8px;
+}
+
+.container__LyOs__LyO:hover{
+	transform: scale(1.05,1.05);
+}
+
+.container__LapicerosYOrganizadores__h2{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container__LapicerosYOrganizadores__ultimaFila{
+	margin-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+/* Aca finaliza lapiceros y organizadores */
