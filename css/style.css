@@ -252,7 +252,7 @@ footer a{
 	color: white;
 }
 
-@media (max-width: 768px){
+@media (min-width: 576px) and (max-width: 768px){
 	.navbar-light .navbar-brand{
 		margin-left: 0%;
 	}	
@@ -263,17 +263,27 @@ footer a{
 	.col__parrafo{
 		margin-top: 0;
 	}
+	.parrafo__titulo{
+		font-size: 6rem;
+	}
 	.parrafo__descripcion__h2{		
-		font-size: 16px;
+		font-size: 2rem;
+	}
+	.enlace1__a{
+		width: 500px;
+	}
+	.enlaces__img{
+		width: 500px;
+		height: 500px;
 	}
 	.enlace1__h2__h2{
-		font-size: 3rem;
+		font-size: 4rem;
 	}
 	.enlace2__h2__h2{
-		font-size: 3rem;
+		font-size: 4rem;
 	}
 	.enlace3__h2__h2{
-		font-size: 3rem;
+		font-size: 4rem;
 	}
 	.container__videos{
 		margin-top: -2rem;
@@ -295,7 +305,7 @@ footer a{
 		font-size: 2rem;
 	}
 	.col__stickers{
-		margin-bottom: 20px;
+		margin-bottom: 3rem;
 	}
 
 }
@@ -482,7 +492,7 @@ footer a{
 	background-color: #0DCAF0;
 }
 
-@media (max-width: 768px){
+@media (min-width: 576px) and (max-width: 768px){
 	.containerImg__productos{
 		margin-top: 3rem;
 	}
@@ -498,6 +508,11 @@ footer a{
 		width: 100%;		
 		border-radius: 10px;
 		margin-top: -3rem;
+	}
+	.container__tituloProductos{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
 	}
 	#carouselExampleControls1{
 		margin-bottom: 3rem;
@@ -635,7 +650,7 @@ footer a{
 	width: 100%;
 }
 
-@media (max-width: 768px){
+@media (min-width: 576px){
 	.contactoContainer{
 		background-color: white;
 	}	
@@ -715,7 +730,7 @@ footer a{
 	margin-top: 1rem;
 }
 
-@media (max-width: 768px){
+@media (min-width: 576px){
 	.container__imagenServicios{
 		margin-top: 3.9rem;
 		width: 100%;
@@ -793,6 +808,28 @@ footer a{
 .container__mates__ultimaFila{
 	margin-top: 2rem;
 	padding-bottom: 2rem;
+}
+
+@media  (min-width: 576px){
+
+	.container__tituloMates__h2{
+		font-size: 6rem;
+	}
+
+	.container__general__mates{
+		width: 100%;
+	}
+	.container__mates{
+		width: 100%;
+	}
+	.container__mates__h2{
+		font-size: 3rem;
+		margin-top: 2rem;
+	}
+	.container__mates__mate{
+		width: 450px;
+		height: 450px;
+	}
 }
 
 /*Aca finaliza mates*/
