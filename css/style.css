@@ -100,10 +100,8 @@ body{
 
 .enlace3{
 	border-radius: 20px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-top: 2rem;
+	margin-top: 6rem;
+	
 }
 
 
@@ -149,7 +147,18 @@ body{
 	height: 200px;
 	width: 400px;
     border-radius: 8px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
+
+.contenido__iframe2{
+	
+	height: 200px;
+	width: 400px;
+    border-radius: 8px;
+	margin-top: 2.3rem;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
 
 .container__h2{
 	color: #0DCAF0;
@@ -508,12 +517,7 @@ footer a{
 		width: 100%;		
 		border-radius: 10px;
 		margin-top: -3rem;
-	}
-	.container__tituloProductos{
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
-	}
+	}	
 	#carouselExampleControls1{
 		margin-bottom: 3rem;
 	}
@@ -650,7 +654,7 @@ footer a{
 	width: 100%;
 }
 
-@media (min-width: 576px){
+@media  (min-width: 576px) and (max-width: 768px){
 	.contactoContainer{
 		background-color: white;
 	}	
@@ -730,7 +734,7 @@ footer a{
 	margin-top: 1rem;
 }
 
-@media (min-width: 576px){
+@media  (min-width: 576px) and (max-width: 768px){
 	.container__imagenServicios{
 		margin-top: 3.9rem;
 		width: 100%;
@@ -810,7 +814,7 @@ footer a{
 	padding-bottom: 2rem;
 }
 
-@media  (min-width: 576px){
+@media   (min-width: 576px) and (max-width: 768px){
 
 	.container__tituloMates__h2{
 		font-size: 6rem;
