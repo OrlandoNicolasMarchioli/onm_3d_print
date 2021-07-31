@@ -263,7 +263,7 @@ footer a{
 
 @media (min-width: 576px) and (max-width: 768px){
 	.navbar-light .navbar-brand{
-		margin-left: 0%;
+		margin-left: 40%;
 	}	
 	.carousel-inner{
 		margin-top: 3.9rem;
@@ -330,7 +330,7 @@ footer a{
 }
 
 .carousel__productos__img{
-	height: 700px;
+	height: 550px;
 	width: 80%;
 	text-align: center;
 	margin-top: 1rem;
@@ -338,8 +338,8 @@ footer a{
 }
 
 .carousel__productos__img2{
-	height: 600px;
-	width: 70%;
+	height: 70%;
+	width: 60%;
 	text-align: center;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -655,11 +655,27 @@ footer a{
 }
 
 @media  (min-width: 576px) and (max-width: 768px){
+
+	.body__contactoResponsive{
+		height: 400px;
+		margin: 0;
+		background-color: lightskyblue;
+	}
+	.contacto__foto{
+		margin-right: -1rem;
+	}
 	.contactoContainer{
 		background-color: white;
+		margin: 0
+		;
+	}
+	.title__h1{
+		margin-top: 2rem;
 	}	
 	.section__contacto{
 		background-color: #0DCAF0;
+		margin-right: 0;
+		margin-left: 0;
 		margin-bottom: 4rem;
 	}
 	.section__instagram{
@@ -672,6 +688,8 @@ footer a{
 	}
 	footer{
 		height: 8rem;
+		margin-right: -10px;
+		
 	}
 }
 
