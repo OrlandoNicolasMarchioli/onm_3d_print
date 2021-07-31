@@ -8,6 +8,7 @@
 body{
 	/*background-image: linear-gradient(to right,darkblue,black);*/
 	background-color: white;
+	margin-right: 0;
 }
 /*Inicio contenido*/
 
@@ -263,7 +264,10 @@ footer a{
 
 @media (min-width: 576px) and (max-width: 768px){
 	.navbar-light .navbar-brand{
-		margin-left: 40%;
+		margin-left: 0;
+	}
+	.carousel__index__img{
+		margin-top: 6rem;
 	}	
 	.carousel-inner{
 		margin-top: 3.9rem;
@@ -503,11 +507,11 @@ footer a{
 
 @media (min-width: 576px) and (max-width: 768px){
 	.containerImg__productos{
-		margin-top: 3rem;
+		margin-top: 0;
 	}
 	
 	.container__productos__img{
-		height: 300px;		
+		display: none;		
 	}
 	.container__tituloProductos__h1{
 		text-align: center;
@@ -661,7 +665,7 @@ footer a{
 @media  (min-width: 576px) and (max-width: 768px){
 
 	.body__contactoResponsive{
-		height: 5rem;
+		height: auto;
 		margin: 0;
 		background-color: none ;
 	}

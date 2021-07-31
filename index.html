@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">  
   <head>    
-    <title>ONM 3D Print</title>    
-    <LINK rel=StyleSheet href="css/style.css" type="text/css" MEDIA=screen> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,51 +13,73 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <LINK rel=StyleSheet href="css/style.css" type="text/css" MEDIA=screen> 
+  <LINK rel=StyleSheet href="css/style.css" type="text/css" MEDIA=screen>
+  
+  <!-- meta descripcion -->  
+  <meta name="descripcion" content="Empresa ONM 3D PRINT dedicada a la impresion 3D y desarrolo de diseños personalizados">
+  <!-- meta palabras claves -->
+  <meta name="keywords" content="impresion 3d, diseños, mates, soportes, macetas, lamparas">
+
+  <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
+
+  <!-- Como se comparten mi sitio en las redes -->
+
+  <meta property="og:title" content="ONM 3D Print - Expertos en impresion 3D">
+
+  <meta property="og:url" content="https://onm3dprint.000webhostapp.com/productos/">
+
+  <meta property="og:description" content="Encontranos en instagram como onm_3d_print">
+
+  <meta property="og:locale" content="es_AR">
+
+  <title>ONM 3D Print - Expertos en impresion 3D</title>  
   </head>  
+  <!-- comienzo del body -->
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-info">
-      <div class="container-fluid">
-        <a class="navbar-brand text-light" href="index.html">ONM 3D PRINT</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-right">
-            <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav__link text-light" href="views/productos.html">Productos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="views/contacto.html">Contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="views/servicios.html">Servicios</a>
-            </li>           
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-            </li>
-          </ul>          
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="index.html">ONM 3D PRINT</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-right">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav__link text-light" href="views/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="views/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="views/servicios.html">Servicios</a>
+              </li>           
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+              </li>
+            </ul>          
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
       
 
-    <div class="carousel__index__img mx-sm-0 mx-md-0 mx-lg-0">
+    <div class="container-fluid w-100">
       <div class="row ">
-        <div class="col-12 col-sm-12 mx-sm-0 col-md-12 mx-md-0 col-lg-12 mx-lg-0">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 carousel__index__img">
           <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active carousel__index__img" data-bs-interval="2000">
-                <img  src="img/imgCarrousel/carrousel3.jpg" class="d-block w-100" alt="...">
+                <img  src="img/imgCarrousel/carrousel3.jpg" class="d-block w-100" alt="imagen impresion 3D">
               </div>
               <div class="carousel-item carousel__index__img" data-bs-interval="3500">
-                <img  src="img/imgCarrousel/carrousel2.jpg" class="d-block w-100" alt="...">
+                <img  src="img/imgCarrousel/carrousel2.jpg" class="d-block w-100" alt="imagen impresion 3D">
               </div>
               <div class="carousel-item carousel__index__img" data-bs-interval="3500">
-                <img  src="img/imgCarrousel/carrousel1.jpg" class="d-block w-100" alt="...">
+                <img  src="img/imgCarrousel/carrousel1.jpg" class="d-block w-100" alt="imagen impresion 3D">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -95,7 +118,7 @@
           <!--<p> imagen uno con link y descripcion</p>-->
           <div data-aos="fade-right">
             <a class="enlace1__a d-flex flex-column align-items-center justify-content-center" href="views/productos.html">
-              <img class="enlaces__img" src="img/producto.png" alt="">
+              <img class="enlaces__img" src="img/producto.png" alt="imagen producto">
             </a>
           </div>
           <div class="enlace1__h2">
@@ -111,7 +134,7 @@
           <!--<p> imagen dos con link y descripcion</p>-->
           <div data-aos="fade-up">
             <a class="enlace2__a d-flex flex-column align-items-center justify-content-center" href="views/servicios.html">
-              <img class="enlaces__img" src="img/disenos.png" alt="">
+              <img class="enlaces__img" src="img/disenos.png" alt="imagen servicios">
             </a>
           </div>
           <div class="enlace2__h2">
@@ -126,7 +149,7 @@
           <!--<p> imagen tres con link y descripcion</p>-->
           <div data-aos="fade-left">
             <a class="d-flex flex-column align-items-center justify-content-center" href="views/servicios.html">
-              <img class="enlaces__img" src="img/sobrenosotros.png" alt="">
+              <img class="enlaces__img" src="img/sobrenosotros.png" alt="imagen impresion 3D">
             </a>
           </div>
           <div class="enlace3__h2">
@@ -198,35 +221,35 @@
 
         <div class="col-12 col-sm-12 col-md-12 col-lg-3 d-flex flex-column align-items-center col__stickers">
           <div class="col__img d-flex align-items-center justify-content-center">
-            <img class="col__img1" src="img/imgServicios/herramientas.png" alt="">
+            <img class="col__img1" src="img/imgServicios/herramientas.png" alt="imagen asistencia tecnica">
           </div>
           <div class="col__h3">
             <h3 class="col__asistenciaTecnica">
               Asistencia técnica   
             </h3>
-            <h6 class="col__descripcion">
+            <h4 class="col__descripcion">
               Soluciones integrales   
-            </h6>
+            </h4>
           </div>
         </div>
 
         <div class="col-12 col-sm-12 col-md-12 col-lg-3 d-flex flex-column align-items-center col__stickers">
           <div class="col__img d-flex align-items-center justify-content-center">
-            <img class="col__img2" src="img/imgServicios/imagenNotebook.png" alt="">
+            <img class="col__img2" src="img/imgServicios/imagenNotebook.png" alt="imagen diseños">
           </div>
           <div class="col__h3">
             <h3 class="col__enviosATodoElPais">
               Diseños
             </h3>
-            <h6 class="col__descripcion">
+            <h4 class="col__descripcion">
               Diseños segun pedidos o planos   
-            </h6>             
+            </h4>             
           </div>
         </div>
 
         <div class="col-12 col-sm-12 col-md-12 col-lg-3 d-flex flex-column align-items-center col__stickers">
           <div class="col__img d-flex align-items-center justify-content-center">
-            <img class="col__img3" src="img/imgServicios/imagenCamion.png" alt="">
+            <img class="col__img3" src="img/imgServicios/imagenCamion.png" alt="imagen envios a todo el pais">
           </div>
           <div class="col col__h3">
             <h3 class="col__enviosATodoElPais">
@@ -240,15 +263,15 @@
 
         <div class="col-12 col-sm-12 col-md-12 col-lg-3 d-flex flex-column align-items-center col__stickers">
           <div class="col__img d-flex align-items-center justify-content-center">
-            <img class="col__img4" src="img/imgServicios/postVenta.jgp.png" alt="">
+            <img class="col__img4" src="img/imgServicios/postVenta.jgp.png" alt="imagen servicio post venta">
           </div>
           <div class="col col__h3">
             <h3 class="col__postVenta">
               Post-Venta
             </h3>
-            <h6 class="col__descripcion">
+            <h4 class="col__descripcion">
               A nuestros clientes
-            </h6>                
+            </h4>                
           </div>
         </div>
       </div>
