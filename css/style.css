@@ -246,27 +246,87 @@ footer a {
   font-size: 4rem;
 }
 
-.container__productos .container__productos__enlace {
+.container__productos .container__img .container__productos__enlace {
   border: solid 4px #0DCAF0;
   border-radius: 10px;
-  padding: 1px;
-  font-family: "Noto Sans JP", sans-serif;
+  padding: 2px;
+  width: 15rem;
+  text-align: center;
   text-decoration: none;
-  width: 10rem;
+  margin-bottom: 2rem;
 }
-.container__productos .container__productos__enlace .container__productos__enlace__h2 {
+.container__productos .container__img .container__productos__enlace:hover {
+  background-color: #0DCAF0;
+  border-color: white;
+  transition: 0.5s;
+}
+.container__productos .container__img .container__productos__enlace .container__productos__enlace__h2 {
   color: #0DCAF0;
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 2rem;
   margin-top: 4px;
-  text-align: center;
 }
-.container__productos .carousel__productos__img {
-  height: 80%;
-  width: 80%;
+.container__productos .container__img .container__productos__enlace .container__productos__enlace__h2:hover {
+  color: white;
+}
+.container__productos .container__img .carousel .carousel-inner {
+  text-align: center;
+  width: 700px;
+  height: 700px;
+}
+.container__productos .container__img .carousel .carousel-inner .carousel-item .carousel__productos__img {
+  height: 650px;
+  width: 90%;
   text-align: center;
   margin-top: 1rem;
   border-radius: 10px;
+}
+.container__productos .container__img .carousel-control-prev-icon {
+  background-color: #0DCAF0;
+  color: #0DCAF0;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+}
+.container__productos .container__img .carousel-control-next-icon {
+  background-color: #0DCAF0;
+  color: #0DCAF0;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+}
+
+.container__busqueda {
+  height: 30%;
+  background-color: #0DCAF0;
+}
+.container__busqueda .col__titulo__busqueda {
+  text-align: center;
+}
+.container__busqueda .col__titulo__busqueda .col__titulo__busqueda__h2 {
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 15px;
+}
+.container__busqueda .col__titulo__parrafo1 {
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+.container__busqueda .col__titulo__parrafo2 {
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+.container__titulos__descarga {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container__titulos__descarga .col__tituloDescarga {
+  color: #0DCAF0;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

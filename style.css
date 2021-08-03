@@ -122,9 +122,7 @@ body{
 	
 }
 
-.enlace3__h2{
-	display: block;
-}
+
 
 
 
@@ -358,7 +356,7 @@ footer a{
 
 
 
-.container__tituloProductos__enlace{
+.container__productos__enlace{
 	border: solid 4px #0DCAF0;
 	border-radius: 10px;
 	padding: 5px;
@@ -366,7 +364,7 @@ footer a{
 	text-decoration: none;
 }
 
-.container__tituloProductos__h2{
+.container__productos__enlace__h2{
 	color: #0DCAF0;
 	font-family: 'Roboto', sans-serif;
 	margin-top: 4px;

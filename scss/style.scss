@@ -281,26 +281,107 @@ footer{
 
 .container__productos{
 
-    .container__productos__enlace{
-        border: solid 4px $bgColorCeleste1;
-	    border-radius: 10px;
-	    padding: 1px;
-	    font-family: $fontFamilyGeneral;
-	    text-decoration: none;
-        width: 10rem;
-        .container__productos__enlace__h2{
+    .container__img{
+
+        .container__productos__enlace{
+
+            border: solid 4px $bgColorCeleste1;
+	        border-radius: 10px;
+	        padding: 2px;
+            width: 15rem;
+            text-align: center;	        
+	        text-decoration: none;
+            margin-bottom: 2rem;
+            &:hover{
+                background-color: $bgColorCeleste1;
+                border-color: $bgColorBlanco;
+                transition: 0.5s;
+            }
+
+            .container__productos__enlace__h2{
+
+                color: #0DCAF0;
+                font-family: $fontFamilyGeneral;
+	            margin-top: 4px;
+                
+                &:hover{
+                    color: $bgColorBlanco
+                    
+                }
+            }
+        }
+
+        .carousel{
+            
+            .carousel-inner{
+                text-align: center;
+                width: 700px;
+                height: 700px;
+
+                .carousel-item{
+                    .carousel__productos__img{
+                        height: 650px;
+	                    width: 90%;
+	                    text-align: center;
+	                    margin-top: 1rem;
+	                    border-radius: 10px;
+                    }
+                }
+            }
+        }
+        .carousel-control-prev-icon{
+            background-color: $bgColorCeleste1;
             color: $bgColorCeleste1;
-	        font-family: $fontFamilyGeneral;
-            font-size: 2rem;
-	        margin-top: 4px;
-            text-align: center;
+            border-radius: 50px;
+            width: 60px;
+            height: 60px;           
+        }
+        
+        .carousel-control-next-icon{
+            background-color: $bgColorCeleste1;
+            color: $bgColorCeleste1;
+            border-radius: 50px;
+            width: 60px;
+            height: 60px;
         }
     }
-    .carousel__productos__img{
-        height: 80%;
-	    width: 80%;
+}
+
+.container__busqueda{
+    height: 30%;
+	background-color: #0DCAF0;
+    
+    
+    .col__titulo__busqueda{
+        text-align: center;
+
+        .col__titulo__busqueda__h2{
+            color: white;
+	    font-family: $fontFamilyGeneral;
+	    padding: 15px;
+        }
+    }
+
+    .col__titulo__parrafo1{
+        color: $bgColorBlanco;
+	    font-family: $fontFamilyGeneral;
 	    text-align: center;
-	    margin-top: 1rem;
-	    border-radius: 10px;
+	    font-size: 25px;
+    }
+    .col__titulo__parrafo2{
+        color: $bgColorBlanco;
+	    font-family: $fontFamilyGeneral;
+	    text-align: center;
+	    font-size: 25px;
+    }
+}
+
+.container__titulos__descarga{
+    margin-top: 20px;
+	margin-bottom: 20px;
+
+    .col__tituloDescarga{
+        color: $bgColorCeleste1;
+	    font-family: $fontFamilyGeneral;
     }
 }
