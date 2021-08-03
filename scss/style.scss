@@ -182,9 +182,10 @@
 	    text-align: center;
 	    font-family: $fontFamilyGeneral;
 	    margin-top: 2rem;
+        font-size: 2.5rem;
     }
 }
-
+/*Aca comienza el espacio de stickers */
 .container__stickers{
     margin-top: 50px;
 	width: 100%;
@@ -377,11 +378,147 @@ footer{
 }
 
 .container__titulos__descarga{
-    margin-top: 20px;
-	margin-bottom: 20px;
+    margin-top: 2rem;
+	margin-bottom: 3rem;
 
     .col__tituloDescarga{
         color: $bgColorCeleste1;
 	    font-family: $fontFamilyGeneral;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    .container__descargas__iframe{
+        .container__descargas__iframe{
+            border-radius: 20px;
+            width: 100%;
+        }
+    }
+    .container__enlacesDeBusqueda{
+        .col__enlaces{
+            color: $bgColorCeleste1;
+	        font-family: $fontFamilyGeneral;
+            font-size:  2.5rem;
+        }
+        .col__enlaces__stl{
+            margin-top: 2rem;
+            
+            .col__imgEnlaces{
+
+                .col__enlaces__stl__a__imgThingiverse{
+                    width: 50px;
+	                height: 50px;
+                }
+                .col__pagina__h2{
+                    font-size: 25px;
+                    font-family: 'roboto', sans-serif;
+                    color: #0DCAF0;
+                    margin-top: 10px;
+                }
+                .col__enlaces__stl__a__imgCults{
+                    width: 100px;
+                    height: 50px;                
+                }
+                .col__enlaces__stl__a__imgMyMiniFactory{
+                    width: 100px;
+                    height: 60px;
+                }                
+                .col__enlaces__stl__a__imgSketchfab{
+                    width: 50px;
+                    height: 50px;
+                }
+
+            }
+        }
     }
 }
+/* Aca termina productos */
+
+/* Aca comienza contacto */
+
+.contactoContainer{
+    margin-top: 0px;
+	background-color: $bgColorBlanco;
+
+    .contacto__fotoContainer{
+
+        background-color: $bgColorCeleste1;
+
+        .foto__link{
+            background-color: $bgColorCeleste1;
+            
+            .contacto__foto{
+                width: 100%;
+            }
+        }
+    }
+    .section__contacto{
+        background-color: $bgColorCeleste1;
+
+        .section__title{
+            height: 5rem;
+	        background-color: $bgColorBlanco;
+            border-radius: 20px;	
+	        margin-bottom: 2rem;
+            &:hover{
+                box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+	            transition: 1s;
+            }
+            
+            .title__h1{
+                color: $bgColorCeleste1;
+	            font-family: $fontFamilyGeneral;	
+	            font-size: 4rem;
+	            text-align: center;
+            }
+        }
+        .section__instagram{
+            background-color: $bgColorBlanco;	
+	        padding: 10px;	
+	        height: 5rem;
+	        margin-bottom: 2rem;
+            border-radius: 20px;
+            
+            .instagram__link{
+                border-radius: 50px;
+	            width: 70px;
+	            height: 70px;
+	            margin-left: 1rem;
+
+                &:hover{
+                    opacity: 0.7;
+                    transition: 1s;
+                }
+            }
+            .instagram__h3{
+                color: $bgColorCeleste1;
+	            font-family: $fontFamilyGeneral;
+	            font-size: 20px;
+            }
+        }
+        .section__mail{
+            background-color: $bgColorBlanco;	
+            padding: 10px;
+            height: 5rem;
+            border-radius: 20px;
+     
+            .mail__link{
+                margin-left: 1.3rem;	
+                width: 55px;
+                height: 55px;                
+
+                &:hover{
+                    opacity: 0.7;
+                    transition: 1s;
+                }
+            }
+
+            .mail__h3{
+                margin-left: 10px;
+                color: $bgColorCeleste1;
+                font-family: $fontFamilyGeneral;
+                font-size: 20px;
+            }
+        }
+    }
+}
+

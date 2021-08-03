@@ -162,8 +162,10 @@
   text-align: center;
   font-family: "Noto Sans JP", sans-serif;
   margin-top: 2rem;
+  font-size: 2.5rem;
 }
 
+/*Aca comienza el espacio de stickers */
 .container__stickers {
   margin-top: 50px;
   width: 100%;
@@ -321,12 +323,126 @@ footer a {
 }
 
 .container__titulos__descarga {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 .container__titulos__descarga .col__tituloDescarga {
   color: #0DCAF0;
   font-family: "Noto Sans JP", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.container__titulos__descarga .container__descargas__iframe .container__descargas__iframe {
+  border-radius: 20px;
+  width: 100%;
+}
+.container__titulos__descarga .container__enlacesDeBusqueda .col__enlaces {
+  color: #0DCAF0;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 2.5rem;
+}
+.container__titulos__descarga .container__enlacesDeBusqueda .col__enlaces__stl {
+  margin-top: 2rem;
+}
+.container__titulos__descarga .container__enlacesDeBusqueda .col__enlaces__stl .col__imgEnlaces .col__enlaces__stl__a__imgThingiverse {
+  width: 50px;
+  height: 50px;
+}
+.container__titulos__descarga .container__enlacesDeBusqueda .col__enlaces__stl .col__imgEnlaces .col__pagina__h2 {
+  font-size: 25px;
+  font-family: "roboto", sans-serif;
+  color: #0DCAF0;
+  margin-top: 10px;
+}
+.container__titulos__descarga .container__enlacesDeBusqueda .col__enlaces__stl .col__imgEnlaces .col__enlaces__stl__a__imgCults {
+  width: 100px;
+  height: 50px;
+}
+.container__titulos__descarga .container__enlacesDeBusqueda .col__enlaces__stl .col__imgEnlaces .col__enlaces__stl__a__imgMyMiniFactory {
+  width: 100px;
+  height: 60px;
+}
+.container__titulos__descarga .container__enlacesDeBusqueda .col__enlaces__stl .col__imgEnlaces .col__enlaces__stl__a__imgSketchfab {
+  width: 50px;
+  height: 50px;
+}
+
+/* Aca termina productos */
+/* Aca comienza contacto */
+.contactoContainer {
+  margin-top: 0px;
+  background-color: white;
+}
+.contactoContainer .contacto__fotoContainer {
+  background-color: #0DCAF0;
+}
+.contactoContainer .contacto__fotoContainer .foto__link {
+  background-color: #0DCAF0;
+}
+.contactoContainer .contacto__fotoContainer .foto__link .contacto__foto {
+  width: 100%;
+}
+.contactoContainer .section__contacto {
+  background-color: #0DCAF0;
+}
+.contactoContainer .section__contacto .section__title {
+  height: 5rem;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+}
+.contactoContainer .section__contacto .section__title:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  transition: 1s;
+}
+.contactoContainer .section__contacto .section__title .title__h1 {
+  color: #0DCAF0;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+}
+.contactoContainer .section__contacto .section__instagram {
+  background-color: white;
+  padding: 10px;
+  height: 5rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+}
+.contactoContainer .section__contacto .section__instagram .instagram__link {
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  margin-left: 1rem;
+}
+.contactoContainer .section__contacto .section__instagram .instagram__link:hover {
+  opacity: 0.7;
+  transition: 1s;
+}
+.contactoContainer .section__contacto .section__instagram .instagram__h3 {
+  color: #0DCAF0;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+}
+.contactoContainer .section__contacto .section__mail {
+  background-color: white;
+  padding: 10px;
+  height: 5rem;
+  border-radius: 20px;
+}
+.contactoContainer .section__contacto .section__mail .mail__link {
+  margin-left: 1.3rem;
+  width: 55px;
+  height: 55px;
+}
+.contactoContainer .section__contacto .section__mail .mail__link:hover {
+  opacity: 0.7;
+  transition: 1s;
+}
+.contactoContainer .section__contacto .section__mail .mail__h3 {
+  margin-left: 10px;
+  color: #0DCAF0;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
