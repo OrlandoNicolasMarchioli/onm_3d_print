@@ -457,6 +457,9 @@ footer a {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 2.5rem;
 }
+.section__formAndMap .section__map .section__map__iframe {
+  border-radius: 8px;
+}
 .section__formAndMap .section__form .section__form__h2 {
   margin-bottom: 2rem;
   color: #0DCAF0;
@@ -464,7 +467,9 @@ footer a {
   font-size: 2.5rem;
 }
 .section__formAndMap .section__form .section__form__form {
-  border: 4px solid #0DCAF0;
+  background-image: linear-gradient(to bottom, #0DCAF0, white);
+  border: 2px solid #eee;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
   width: 600px;
   height: 450px;
   border-radius: 10px;
@@ -478,5 +483,154 @@ footer a {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 1.5rem;
 }
+.section__formAndMap .section__form .section__form__form .section__form__container .section__form__input {
+  margin: 2rem;
+}
+.section__formAndMap .section__form .section__form__form .section__form__container__input {
+  width: 90%;
+}
+.section__formAndMap .section__form .section__form__form .section__form__container__input .section__form__input__textArea {
+  width: 90%;
+  height: 70%;
+}
+.section__formAndMap .section__form .section__form__form .section__form__inputSubmit {
+  width: 6rem;
+  height: 2.5rem;
+  border: 1px solid white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  background-color: #0DCAF0;
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.section__formAndMap .section__form .section__form__form .section__form__inputSubmit:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+/* inicio de seccion servicios */
+.servicios__h1 {
+  font-size: 4rem;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #0DCAF0;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.container__htmlServicios {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+.container__htmlServicios .col__imgServicios {
+  border-radius: 200px;
+  background-color: #0DCAF0;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+}
+.container__htmlServicios .col__imgServicios .col__imgImpresion3d {
+  width: 250px;
+  height: 250px;
+}
+.container__htmlServicios .col__imgServicios .col__imgDiseno3d {
+  width: 200px;
+  height: 200px;
+}
+.container__htmlServicios .col__imgServicios .col__imgProductos {
+  width: 200px;
+  height: 200px;
+}
+.container__htmlServicios .col__h3 .col__tituloServicios {
+  color: #0DCAF0;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.container__htmlServicios .col__h3 .col__descripcionServicios {
+  color: lightskyblue;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* fin de seccion servicios */
+/* comienzo de seccion mates */
+.container__imgPrincipal {
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.container__imgPrincipal .container__imgPrincipal__imgPrincipal {
+  width: 100%;
+  height: 850px;
+}
+
+.container__tituloMates__h2 {
+  color: #0DCAF0;
+  font-size: 4rem;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.container__general__mates {
+  background-color: #0DCAF0;
+  border-radius: 8px;
+}
+.container__general__mates .container__mates {
+  margin-top: 2rem;
+  /* TENGO QUE TRABAJAR EL HOVER!!! */
+}
+.container__general__mates .container__mates .container__mates__h2 {
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.container__general__mates .container__mates .container__mates__mate {
+  height: 400px;
+  width: 400px;
+  border-radius: 8px;
+}
+.container__general__mates .container__mates .container__mates__mate:hover {
+  transform: scale(1.05, 1.05);
+  opacity: 1;
+  visibility: visible;
+}
+.container__general__mates .container__mates .img__2 {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+.container__general__mates .mate01 {
+  background-image: url(img/imgProductos/mates/setvader.jpeg);
+}
+.container__general__mates .container__mates__ultimaFila {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+.container__general__mates .container__mates__ultimaFila .container__mates__h2 {
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.container__general__mates .container__mates__ultimaFila .container__mates__mate {
+  height: 400px;
+  width: 400px;
+  border-radius: 8px;
+}
+.container__general__mates .container__mates__ultimaFila .container__mates__mate:hover {
+  transform: scale(1.05, 1.05);
+  opacity: 0.9;
+}
+
+/* fin de seccion mates */
 
 /*# sourceMappingURL=style.css.map */
