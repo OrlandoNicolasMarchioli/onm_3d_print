@@ -70,20 +70,18 @@
     </nav>
     </div>   
 
-    <div class="container-flow containerImg__productos">
-      <div class="row">
-        <div class="col">
-          <img src="../img/imgProductos/imgProducto.jpg" alt="imagen principal productos" class="container__productos__img">
-        </div>
+    <div class="container-fluid containerImg__productos d-flex ">
+      <div data-aos="fade-left">
+        <h1 class="titulo__img__productos">PRODUCTOS</h1>
       </div>
     </div>
 
-    <div class="container-flow container__tituloProductos justify-content-center">
+    <div class="container-fluid container__tituloProductos justify-content-center">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center align-items-center" data-aos="fade-down">
-          <h1 class="container__tituloProductos__h1">
+          <h2 class="container__tituloProductos__h2">
             Conocé nuestros productos
-          </h1>
+          </h2>
         </div>
       </div>
     </div>
@@ -91,7 +89,7 @@
 
     <div class="container-fluid container__productos ">
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex flex-column align-items-center container__img">
+        <div class="container-fluid col-12 col-sm-12 col-md-12 col-lg-6 d-flex flex-column align-items-center container__img">
           <a href="mates.html" class="container__productos__enlace" data-aos="fade-right">
             <h2 class="container__productos__enlace__h2">
               Mates
@@ -121,7 +119,7 @@
         </div>
         
 
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex flex-column align-items-center container__img">
+        <div class="container-fluid col-12 col-sm-12 col-md-12 col-lg-6 d-flex flex-column align-items-center container__img">
           <a href="macetas.html" class="container__productos__enlace" data-aos="fade-left">
             <h2 class="container__productos__enlace__h2">
               Macetas
@@ -158,7 +156,7 @@
 
       <div class="container-fluid container__productos ">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-6  d-flex flex-column align-items-center container__img">
+          <div class="container-fluid col-12 col-sm-12 col-md-12 col-lg-6  d-flex flex-column align-items-center container__img">
             <a href="soportes.html" class="container__productos__enlace" data-aos="fade-right">
               <h2 class="container__productos__enlace__h2">
                 Soportes
@@ -235,7 +233,7 @@
 
       <div class="container-fluid container__productos">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex flex-column align-items-center container__img">
+          <div class="container-fluid col-12 col-sm-12 col-md-12 col-lg-12 d-flex flex-column align-items-center container__img">
             <a href="lapicerosYOrganizadores.html" class="container__productos__enlace" data-aos="fade-up">
               <h2 class="container__productos__enlace__h2">
                 Lapiceros y organizadores
@@ -274,7 +272,7 @@
       <br><br>
 
         
-        <div class="container-flow container__busqueda d-flex flex-row align-items-center container__busqueda">
+        <div class="container-fluid container__busqueda d-flex flex-row align-items-center container__busqueda">
           <div class="row ">            
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex flex-column justify-content-center">
               <div class="col-12 col-sm-12 col-md-12 col-lg-12  col__titulo__busqueda">
@@ -367,12 +365,36 @@
 
 
   
-  <footer class="footer">
-    <h4>Avisos legales</h4>
-      <a href="http://dominio.com/aviso-legal">Política de cookies</a>
-      <h4>Redes sociales</h4>
-      <a href="http://facebook.com/mi-pagina-de-facebook">Mi Facebook</a>
-  </footer>  
+        <footer class="container-fluid">
+
+          <div class="row d-flex flex-row align-items-center justify-content-center bg-info">
+            <div class="col d-flex flex-column align-items-start">          
+              <div class="footer__instagram d-flex flex-row align-items-start ">
+                <a href="https://www.instagram.com/onm_3d_print/">
+                  <img class="instagram__link" src="../img/instagram.png" alt="imagen logo instagram" >
+                </a>
+                <h5 class="footer__instagram__h5">@onm_3d_print</h5>
+              </div>
+              <div class="footer__mail d-flex flex-row align-items-center">
+                <img class="mail__link" src="../img/gmail.png" alt="imagen logo mail" >
+                </a>
+                <h5 class="footer__mail__h5">onm_3d_print@gmail.com</h5>
+              </div>
+            </div>
+    
+            <div class="col d-flex flex-row align-self-end section__footer__links">
+              <section class=" d-flex flex-row align-items-center">
+                <ul class="d-flex flex-column footer__links__ul">
+                  <li><a href="../index.html"><h6>Inicio</h6></a></li>
+                  <li><a href="productos.html"><h6>Productos</h6></a></li>
+                  <li><a href="contacto.html"><h6>Contacto</h6></a></li>
+                  <li><a href="servicios.html"><h6>Servicios</h6></a></li>
+                </ul>
+              </section>
+              
+            </div>
+          </div>
+        </footer>    
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
   <script>
     AOS.init();

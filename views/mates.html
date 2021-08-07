@@ -64,10 +64,12 @@
       </div>
     </nav>
 
-    <div class="container-fluid container__imgPrincipal">
-      <img class="container__imgPrincipal__imgPrincipal img-fluid" src="../img/imgProductos/mates/principal.jpg" alt="">
+    <div class="container-fluid d-flex container__imgProductos2 flex-column">
+      <div data-aos="fade-left">
+        <h1 class="titulo__img__productosMates">MATES</h1>
+      </div>
     </div>
-
+    
     <div class="container__tituloMates ">  
       <div class="row ">  
         <div class="col"> 
@@ -79,7 +81,7 @@
     </div>
 
     <div class="container container__general__mates d-flex flex-column w-100">
-      <div class="container container__mates w-90">
+      <div class="container container__mates w-80">
 
         <div class="row d-flex flex-row align-items-center justify-content-center">
           <div class="col d-flex flex-column align-items-center justify-content-center">
@@ -209,12 +211,36 @@
     <br>
     <br>
     <br>
-  <footer >
-    <h4>Avisos legales</h4>
-      <a href="http://dominio.com/aviso-legal">Política de cookies</a>
-      <h4>Redes sociales</h4>
-      <a href="http://facebook.com/mi-pagina-de-facebook">Mi Facebook</a>
-  </footer>  
+    <footer class="container-fluid">
+
+      <div class="row d-flex flex-row align-items-center justify-content-center bg-info">
+        <div class="col d-flex flex-column align-items-start">          
+          <div class="footer__instagram d-flex flex-row align-items-center ">
+            <a href="https://www.instagram.com/onm_3d_print/">
+              <img class="instagram__link" src="../img/instagram.png" alt="imagen logo instagram" >
+            </a>
+            <h5 class="footer__instagram__h5">@onm_3d_print</h5>
+          </div>
+          <div class="footer__mail d-flex flex-row align-items-center">
+            <img class="mail__link" src="../img/gmail.png" alt="imagen logo mail" >
+            </a>
+            <h5 class="footer__mail__h5">onm_3d_print@gmail.com</h5>
+          </div>
+        </div>
+
+        <div class="col d-flex flex-row align-self-end section__footer__links">
+          <section class=" d-flex flex-row align-items-center">
+            <ul class="d-flex flex-column footer__links__ul">
+              <li><a href="../index.html"><h6>Inicio</h6></a></li>
+              <li><a href="productos.html"><h6>Productos</h6></a></li>
+              <li><a href="contacto.html"><h6>Contacto</h6></a></li>
+              <li><a href="servicios.html"><h6>Servicios</h6></a></li>
+            </ul>
+          </section>
+          
+        </div>
+      </div>
+    </footer>  
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
   <script>
     AOS.init();

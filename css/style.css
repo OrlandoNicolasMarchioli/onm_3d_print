@@ -207,9 +207,7 @@
 
 footer {
   background-color: #0DCAF0;
-  width: 100%;
   height: 120px;
-  margin: auto;
   margin-bottom: 0;
   color: white;
   font-family: "Noto Sans JP", sans-serif;
@@ -217,15 +215,56 @@ footer {
 footer a {
   color: white;
 }
+footer .footer__instagram .instagram__link {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}
+footer .footer__instagram .instagram__link:hover {
+  opacity: 0.7;
+  transition: 1s;
+}
+footer .footer__instagram .footer__instagram__h5 {
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+}
+footer .footer__mail .mail__link {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  margin-left: 0.3rem;
+}
+footer .footer__mail .mail__link:hover {
+  opacity: 0.7;
+  transition: 1s;
+}
+footer .footer__mail .footer__mail__h5 {
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+}
+footer .section__footer__links .footer__links__ul {
+  margin-top: 0.5rem;
+}
 
 /* fin de index */
 /* Comienzo de productos */
-.container__productos__img {
-  width: 100%;
-  height: 1000px;
+.containerImg__productos {
+  height: 1200px;
+  background-image: url("/img/imgProductos/imgProducto .jpg");
+  margin: 0;
+}
+.containerImg__productos .titulo__img__productos {
+  color: #0DCAF0;
+  margin-top: 20%;
+  margin-left: 20%;
+  font-size: 6rem;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 800;
 }
 
-.container__tituloProductos__h1 {
+.container__tituloProductos__h2 {
   color: #0DCAF0;
   font-family: "Noto Sans JP", sans-serif;
   margin-top: 20px;
@@ -542,15 +581,19 @@ footer a {
 
 /* fin de seccion servicios */
 /* comienzo de seccion mates */
-.container__imgPrincipal {
-  margin-right: 0;
-  margin-left: 0;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-.container__imgPrincipal .container__imgPrincipal__imgPrincipal {
+.container__imgProductos2 {
+  height: 1200px;
+  background-image: url("/img/imgProductos/mates/principal.jpg");
+  margin: 0;
   width: 100%;
-  height: 850px;
+}
+.container__imgProductos2 .titulo__img__productosMates {
+  color: white;
+  margin-top: 20%;
+  margin-left: 40%;
+  font-size: 8rem;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 800;
 }
 
 .container__tituloMates__h2 {

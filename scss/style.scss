@@ -234,28 +234,86 @@
 
 
 footer{
-	background-color: $bgColorCeleste1;
-	width: 100%;
-	height: 120px;
-	margin:auto;
+	background-color: $bgColorCeleste1;	
+	height: 120px;	
 	margin-bottom: 0;
-	color: white;
+	color: $bgColorBlanco;
 	font-family: $fontFamilyGeneral;
+    
     a{
         color: $bgColorBlanco;
-    }	
+    }
+    
+    .footer__instagram{
+    
+        .instagram__link{
+            border-radius: 50px;
+            width: 40px;
+            height: 40px;      
+    
+            &:hover{
+                opacity: 0.7;
+                transition: 1s;
+            }
+        }
+        .footer__instagram__h5{
+            color: $bgColorBlanco;
+            font-family: $fontFamilyGeneral;
+            font-size: 20px;
+        }
+        
+    }
+    
+    .footer__mail{
+        
+        .mail__link{
+            border-radius: 50px;
+            width: 30px;
+            height: 30px; 
+            margin-left: 0.3rem;     
+    
+            &:hover{
+                opacity: 0.7;
+                transition: 1s;
+            }
+        }
+        .footer__mail__h5{
+            color: $bgColorBlanco;
+            font-family: $fontFamilyGeneral;
+            font-size: 20px;
+        }
+        
+    }
+
+    .section__footer__links{
+      
+
+        .footer__links__ul{
+            margin-top: 0.5rem;
+        }
+    }
 }
 
 /* fin de index */
 
 /* Comienzo de productos */
 
-.container__productos__img{
-    width: 100%;
-	height: 1000px;
+.containerImg__productos{    
+	height: 1200px;
+    background-image: url("/img/imgProductos/imgProducto\ .jpg");
+    margin: 0;
+
+    .titulo__img__productos{
+        color: $bgColorCeleste1;
+        margin-top: 20%;
+        margin-left: 20%;
+        font-size: 6rem;
+        font-family: $fontFamilyGeneral;
+        font-weight: 800;
+    }
 }
 
-.container__tituloProductos__h1{
+.container__tituloProductos__h2{
     color: $bgColorCeleste1;
 	font-family: $fontFamilyGeneral;
 	margin-top: 20px;
@@ -580,6 +638,10 @@ footer{
     }
 }
 
+
+
+
+
 /* inicio de seccion servicios */
 
 .servicios__h1{
@@ -643,15 +705,20 @@ footer{
 
 /* comienzo de seccion mates */
 
-.container__imgPrincipal{
-	margin-right: 0;
-	margin-left: 0;
-	margin-top: 2rem;
-	margin-bottom: 1rem;
+.container__imgProductos2{    
+	height: 1200px;
+    background-image: url("/img/imgProductos/mates/principal.jpg");
+    margin: 0;
+    width: 100%;
+    
 
-    .container__imgPrincipal__imgPrincipal{
-        width: 100%;
-        height: 850px;
+    .titulo__img__productosMates{
+        color: $bgColorBlanco;
+        margin-top: 20%;
+        margin-left: 40%;
+        font-size: 8rem;
+        font-family: $fontFamilyGeneral;
+        font-weight: 800;
     }
 }
 
