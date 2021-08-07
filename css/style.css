@@ -584,7 +584,6 @@ footer a {
 }
 .container__general__mates .container__mates {
   margin-top: 2rem;
-  /* TENGO QUE TRABAJAR EL HOVER!!! */
 }
 .container__general__mates .container__mates .container__mates__h2 {
   color: white;
@@ -596,22 +595,11 @@ footer a {
   height: 400px;
   width: 400px;
   border-radius: 8px;
+  background-image: url("/img/imgProductos/mates/Matevader.jpeg");
 }
 .container__general__mates .container__mates .container__mates__mate:hover {
-  transform: scale(1.05, 1.05);
-  opacity: 1;
-  visibility: visible;
-}
-.container__general__mates .container__mates .img__2 {
-  position: absolute;
-  top: 0;
-  opacity: 0;
-  width: 100%;
-  height: 100%;
-  visibility: hidden;
-}
-.container__general__mates .mate01 {
-  background-image: url(img/imgProductos/mates/setvader.jpeg);
+  transform: scale(1.1, 1.1);
+  transition: 1s;
 }
 .container__general__mates .container__mates__ultimaFila {
   margin-top: 2rem;
