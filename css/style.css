@@ -812,6 +812,15 @@ footer .section__footer__links .footer__links__ul {
 
 /* fin de seccion lamparas */
 /* inicio de seccion lapiceros y oirganizadores */
+.titulo__img__productosOrganizadoresYLapiceros {
+  color: white;
+  margin-top: -40%;
+  margin-left: 15%;
+  font-size: 6rem;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 800;
+}
+
 .container__tituloLapicerosYOrganizadores__h2 {
   color: #0DCAF0;
   font-size: 4rem;
