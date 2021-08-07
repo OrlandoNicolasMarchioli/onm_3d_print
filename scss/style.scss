@@ -10,25 +10,7 @@
 
 /* comienzo de index */
 
-.container-fluid{
-    .navbar-light .navbar-brand{
-        font-size: x-large;
-        margin-left: 35%;
-    }
-    .nav-item{
-        &:hover{
-            background-color: rgb(36, 221, 253);	
-            border-radius: 8px;
-            transition: 0.5s;
-            box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-        }
-    }
-    @media (min-width: 300px) and (max-width: 768px){
-        .navbar .fixed-top .navbar-expand-lg .navbar-light .bg-info{
-            width: 80%;
-        }
-    }
-}
+
 
 .container__carouselIndex{
     @media (min-width: 300px) and (max-width: 768px){
@@ -301,7 +283,7 @@ footer{
 
             .container__productos__enlace__h2{
 
-                color: #0DCAF0;
+                color: $bgColorCeleste1;
                 font-family: $fontFamilyGeneral;
 	            margin-top: 4px;
                 
@@ -358,22 +340,22 @@ footer{
 
         .col__titulo__busqueda__h2{
             color: white;
-	    font-family: $fontFamilyGeneral;
-	    padding: 15px;
+	        font-family: $fontFamilyGeneral;
+	        padding: 15px;
         }
     }
 
     .col__titulo__parrafo1{
-        color: $bgColorBlanco;
-	    font-family: $fontFamilyGeneral;
-	    text-align: center;
-	    font-size: 25px;
+            color: $bgColorBlanco;
+	        font-family: $fontFamilyGeneral;
+	        text-align: center;
+	        font-size: 25px;
     }
     .col__titulo__parrafo2{
-        color: $bgColorBlanco;
-	    font-family: $fontFamilyGeneral;
-	    text-align: center;
-	    font-size: 25px;
+            color: $bgColorBlanco;
+	        font-family: $fontFamilyGeneral;
+	        text-align: center;
+	        font-size: 25px;
     }
 }
 
@@ -717,6 +699,8 @@ footer{
         .container__mates__h2{
             color: $bgColorBlanco;
             font-family: $fontFamilyGeneral;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
         }
 
         .container__mates__mate{
@@ -725,8 +709,8 @@ footer{
             border-radius: 8px;
 
             &:hover{
-                transform: scale(1.05,1.05);
-	            opacity: 0.9;	
+                transform: scale(1.1,1.1);
+                transition: 1s;	
             }
         }
     }
@@ -735,3 +719,259 @@ footer{
 
 /* fin de seccion mates */
 
+/* Inicion de seccion macetas */
+
+.container__tituloMacetas__h2{
+    color: $bgColorCeleste1;
+	font-size: 4rem;
+	font-family: $fontFamilyGeneral;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.container__general__macetas{
+    background-color: $bgColorCeleste1;
+	border-radius: 8px;
+    padding-top: 0.5rem;
+    margin-top: 1.5rem;
+
+    .container__macetas{	
+        margin-top: 2rem;
+
+        .container__macetas__h2{
+            color: $bgColorBlanco;
+            font-family: $fontFamilyGeneral;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .container__macetas__maceta{
+            height: 400px;
+            width: 400px;
+            border-radius: 8px;
+
+            &:hover{
+                transform: scale(1.1,1.1);
+                transition: 1s;
+            }
+        }        
+    }
+
+    .container__macetas__ultimaFila{
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+    
+        .container__macetas__h2{
+            color: $bgColorBlanco;
+            font-family: $fontFamilyGeneral;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .container__macetas__maceta{
+            height: 400px;
+            width: 400px;
+            border-radius: 8px;
+
+            &:hover{
+                transform: scale(1.1,1.1);
+                transition: 1s;
+            }
+        }
+    }
+}
+
+/* fin de seccion macetas */
+
+/* comienzo de seccion soportes */
+
+.container__tituloSoportes__h2{
+	color: $bgColorCeleste1;
+	font-size: 4rem;
+	font-family: $fontFamilyGeneral;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.container__general__soportes{
+	background-color: $bgColorCeleste1;
+	border-radius: 8px;
+    padding-top: 0.5rem;
+    margin-top: 1.5rem;
+
+    .container__soportes{	
+        margin-top: 2rem;
+
+        .container__soportes__h2{
+            color: $bgColorBlanco;
+            font-family: $fontFamilyGeneral;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .container__soportes__soporte{
+            height: 400px;
+            width: 400px;
+            border-radius: 8px;
+
+            &:hover{
+                transform: scale(1.1,1.1);
+                transition: 1s;
+            }
+        }        
+    }
+
+    .container__soportes__ultimaFila{
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+
+        .container__soportes__h2{
+            color: $bgColorBlanco;
+            font-family: $fontFamilyGeneral;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .container__soportes__soporte{
+            height: 400px;
+            width: 400px;
+            border-radius: 8px;
+
+            &:hover{
+                transform: scale(1.1,1.1);
+                transition: 1s;
+            }
+        } 
+    }
+}
+
+/* fin de seccion soportes */
+
+/* comienzo de seccion lamparas */
+
+.container__tituloLamparas__h2{
+	color: $bgColorCeleste1;
+	font-size: 4rem;
+	font-family: $fontFamilyGeneral;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.container__general__lamparas{
+	background-color: $bgColorCeleste1;
+	border-radius: 8px;
+    padding-top: 0.5rem;
+    margin-top: 1.5rem;
+    
+    .container__lamparas{	
+        margin-top: 2rem;
+
+        .container__lamparas__h2{
+            color: $bgColorBlanco;
+            font-family: $fontFamilyGeneral;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .container__lamparas__lampara{
+            height: 500px;
+            width: 500px;
+            border-radius: 8px;
+
+            &:hover{
+                transform: scale(1.1,1.1);
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .container__lamparas__ultimaFila{
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+
+        .container__lamparas__h2{
+            color: $bgColorBlanco;
+            font-family: $fontFamilyGeneral;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .container__lamparas__lampara{
+            height: 500px;
+            width: 500px;
+            border-radius: 8px;
+
+            &:hover{
+                transform: scale(1.1,1.1);
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+/* fin de seccion lamparas */
+
+ /* inicio de seccion lapiceros y oirganizadores */
+
+.container__tituloLapicerosYOrganizadores__h2{
+	color: $bgColorCeleste1;
+	font-size: 4rem;
+	font-family: $fontFamilyGeneral;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.container__general__LapicerosYOrganizadores{
+	background-color: #0DCAF0;
+	border-radius: 8px;
+    padding-top: 0.5rem;
+    margin-top: 1.5rem;
+
+    .container__LapicerosYOrganizadores{	
+        margin-top: 2rem;
+
+        .container__LapicerosYOrganizadores__h2{
+            color: $bgColorBlanco;
+            font-family: $fontFamilyGeneral;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .container__LyOs__LyO{
+            height: 500px;
+            width: 500px;
+            border-radius: 8px;
+
+            &:hover{
+                transform: scale(1.1,1.1);
+                transition: 0.5s;
+            }        
+        }
+    }
+
+    .container__LapicerosYOrganizadores__ultimaFila{
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+
+        .container__LapicerosYOrganizadores__h2{
+            color: $bgColorBlanco;
+            font-family: $fontFamilyGeneral;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .container__LyOs__LyO{
+            height: 500px;
+            width: 500px;
+            border-radius: 8px;
+
+            &:hover{
+                transform: scale(1.1,1.1);
+                transition: 0.5s;
+            }        
+        }
+    }
+
+}
+
+/* fin de seccion lapiceros y organizadores */
