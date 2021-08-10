@@ -36,35 +36,32 @@
   </head>  
   <!-- comienzo del body -->
   <body>
-    <header>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-info">
-        <div class="container-fluid">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <a class="navbar-brand text-light" href="index.html">ONM 3D PRINT</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-right">
-              <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav__link text-light" href="views/productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="views/contacto.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="views/servicios.html">Servicios</a>
-              </li>           
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-              </li>
-            </ul>          
-          </div>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="/views/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="/views/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-light" href="/views/servicios.html" tabindex="-1" aria-disabled="true">Servicios</a>
+            </li>
+          </ul>          
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+    
       
 
     <div class="container-fluid w-100 container__carouselIndex">
@@ -288,26 +285,30 @@
       <div class="row d-flex flex-row align-items-center justify-content-center bg-info">
         <div class="col d-flex flex-column align-items-start">          
           <div class="footer__instagram d-flex flex-row align-items-start ">
-            <a href="https://www.instagram.com/onm_3d_print/">
-              <img class="instagram__link" src="../img/instagram.png" alt="imagen logo instagram" >
+            <a href="/https://www.instagram.com/onm_3d_print/">
+              <img class="instagram__link" src="/img/instagram.png" alt="imagen logo instagram" >
             </a>
             <h5 class="footer__instagram__h5">@onm_3d_print</h5>
           </div>
           <div class="footer__mail d-flex flex-row align-items-center">
-            <img class="mail__link" src="../img/gmail.png" alt="imagen logo mail" >
+            <img class="mail__link" src="/img/gmail.png" alt="imagen logo mail" >
             </a>
             <h5 class="footer__mail__h5">onm_3d_print@gmail.com</h5>
           </div>
         </div>
 
-        <div class="col d-flex flex-row align-self-end section__footer__links">
-          <section class=" d-flex flex-row align-items-center">
-            <ul class="d-flex flex-column footer__links__ul">
-              <li><a href="index.html"><h6>Inicio</h6></a></li>
-              <li><a href="/views/productos.html"><h6>Productos</h6></a></li>
-              <li><a href="/views/contacto.html"><h6>Contacto</h6></a></li>
-              <li><a href="/views/servicios.html"><h6>Servicios</h6></a></li>
-            </ul>
+        <div class="col d-flex flex-row justify-content-center section__footer__links">
+          <section class=" d-flex flex-row align-items-center ">
+            <div class="row">
+              <div class="col d-flex flex-column">
+                <ul class=" footer__links__ul">
+                  <li><a href="index.html"><h6>Inicio</h6></a></li>
+                  <li><a href="/views/productos.html"><h6>Productos</h6></a></li>
+                  <li><a href="/views/contacto.html"><h6>Contacto</h6></a></li>
+                  <li><a href="/views/servicios.html"><h6>Servicios</h6></a></li>
+                </ul>
+              </div>
+            </div>
           </section>
           
         </div>
