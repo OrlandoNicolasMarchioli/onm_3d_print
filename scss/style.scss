@@ -9,11 +9,22 @@
 }
 
 /* comienzo de index */
+@media (min-width: 540px) and (max-width: 910px){
+    *{
+        margin: 0;
+    }
+    
+}
 
 
 .navbar{
-    width: 100%;   
+    
+
+    @media (min-width: 540px) and (max-width: 910px){
+        width: 100%;
+    }
 }
+
 
 .container-fluid{
     .row__parrafo{
@@ -48,7 +59,9 @@
 }
 
 .container__enlaces{
-    width: 90%;
+    width: 90%;    
+    text-align: center;
+    margin-left: 5%;
 
     .enlace1{
         border-radius: 20px;	    
@@ -133,16 +146,20 @@
         }
     }
     @media screen and (min-width: 360px) and (max-width: 540px){       
-
+        .container__enlaces{  
+            display: flex;
+            flex-direction: row;
+            align-items: center;
         
-        .enlace1__h2__h2{
-            font-size: 3rem;            
-        }
-        .enlace2__h2__h2{
-            font-size: 3rem;            
-        }
-        .enlace3__h2__h2{
-            font-size: 3rem;            
+            .enlace1__h2__h2{
+                font-size: 3rem;            
+            }
+            .enlace2__h2__h2{
+                font-size: 3rem;            
+            }
+            .enlace3__h2__h2{
+                font-size: 3rem;            
+            }
         }
     }
 }
@@ -177,9 +194,10 @@
         }
         .columna__video{
             text-align: center;
+            width: 100%;
 
             .contenido__iframe{
-                width: 80%;
+                width: 90%;
             }
         }
     }
@@ -195,80 +213,84 @@
     }
 }
 /*Aca comienza el espacio de stickers */
-.container__stickers{
-    margin-top: 50px;
-	width: 100%;
+.containerGeneralStickers{
     text-align: center;
-    .col__stickers{
-        .col__img{
-            border-radius: 150px;
-            background-color: $bgColorCeleste1;
-            width: 80px;
-            height: 80px;	
-            text-align: center;	
-            .col__img1{
-                width: 50px;
-                height: 50px;
-            }
-            .col__img2{
-                width: 70px;
-                height: 70px;
-                margin-right: 5px;
-            }
-            .col__img3{
-                width: 65px;
-                height: 65px;
-            }
-            .col__img4{
-                width: 65px;
-                height: 65px;
-                margin-right: 5px;	
-            }
-        }
-        .col__h3{
-            .col__asistenciaTecnica{
-                color: $bgColorCeleste1;
-                font-family: $fontFamilyGeneral;
-                text-align: center;	            
-            }
-            
-            .col__disenosAMedida{
-                color: $bgColorCeleste1;
-                font-family: $fontFamilyGeneral;                    
-            }
-            
-            .col__enviosATodoElPais{
-                color: $bgColorCeleste1;
-                font-family: $fontFamilyGeneral;	
-                text-align: center;            
-            }
-            
-            .col__postVenta{
-                color: $bgColorCeleste1;
-                font-family: $fontFamilyGeneral;
-                text-align: center;	                
-            }
+    margin-bottom: 3rem;
 
-            .col__descripcion{
-                color: lightskyblue;
-                font-family: $fontFamilyGeneral;
-                font-size: 20px;
+    .container__stickers{
+        margin-top: 50px;
+        width: 100%;
+        
+        .col__stickers{
+            text-align: center;
+            .col__img{
+                border-radius: 150px;
+                background-color: $bgColorCeleste1;
+                width: 80px;
+                height: 80px;	
                 text-align: center;	
-                
-            }
-        }
-        @media screen and (min-width: 360px) and (max-width: 540px){
-            .col__stickers{
-                margin-left: 2rem;
-            
-                .col__h3{
-                    margin-bottom: 1rem;
+                .col__img1{
+                    width: 50px;
+                    height: 50px;
+                }
+                .col__img2{
+                    width: 70px;
+                    height: 70px;
+                    margin-right: 5px;
+                }
+                .col__img3{
+                    width: 65px;
+                    height: 65px;
+                }
+                .col__img4{
+                    width: 65px;
+                    height: 65px;
+                    margin-right: 5px;	
                 }
             }
+            .col__h3{
+                .col__asistenciaTecnica{
+                    color: $bgColorCeleste1;
+                    font-family: $fontFamilyGeneral;
+                    text-align: center;	            
+                }
+                
+                .col__disenosAMedida{
+                    color: $bgColorCeleste1;
+                    font-family: $fontFamilyGeneral;                    
+                }
+                
+                .col__enviosATodoElPais{
+                    color: $bgColorCeleste1;
+                    font-family: $fontFamilyGeneral;	
+                    text-align: center;            
+                }
+                
+                .col__postVenta{
+                    color: $bgColorCeleste1;
+                    font-family: $fontFamilyGeneral;
+                    text-align: center;	                
+                }
+
+                .col__descripcion{
+                    color: lightskyblue;
+                    font-family: $fontFamilyGeneral;
+                    font-size: 20px;
+                    text-align: center;           
+                }
+            }
+            
+        }
+    }
+    @media screen and (min-width: 360px) and (max-width: 540px){
+        .containerGeneralStickers{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
         }
     }
 }
-
 
 footer{
 	background-color: $bgColorCeleste1;	
@@ -325,22 +347,25 @@ footer{
     .section__footer__links{
 
         .footer__links__ul{
-            margin-top: 0.5rem;
+            margin-top: 1rem;
+            
+            .section__footer__links__li{
+                margin: 1rem;
+            }
         }
         @media screen and (min-width: 360px) and (max-width: 540px){
             
             .footer__links__ul{
                 display: flex;
-                flex-direction: row;
-                text-align: center;
-
-
-                .footer__links__ul li a  {
-                    margin-left: 1rem;
+                flex-direction: column;
+                margin-right: 1.5rem;
+                
+                .section__footer__links__li{
                     margin-right: 1rem;
+                    margin-left: 1rem;
                 }
             }            
-        }
+        }        
     }
 }
 

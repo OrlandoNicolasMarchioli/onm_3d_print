@@ -37,6 +37,7 @@
   <!-- comienzo del body -->
   <body>
     
+    <!-- Comienzo de nav -->
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,7 +64,7 @@
     </nav>
     
       
-
+    <!-- Comienzo de carrousel principal -->
     <div class="container-fluid w-100 container__carouselIndex">
       <div class="row ">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 carousel__index__img">
@@ -91,7 +92,7 @@
         </div>
       </div>
     </div>
-
+    <!-- Comienzo titulo principal -->
     <br>
     <div class="container-fluid">
       <div class="row row__parrafo ">
@@ -108,8 +109,8 @@
         </div>
       </div>
     </div>
-
-    <div class="container-fluid d-flex flex-row align-items-center container__enlaces ">
+    <!-- comienzo fila enlaces de servicios -->
+    <div class="container__enlaces ">
       <div class="row d-flex flex-row align-items-center justify-content-center">
         <div class="col-12 col-sm-12 col-md-12 col-lg-4 enlace1 ">
           <!--<p> imagen uno con link y descripcion</p>-->
@@ -129,7 +130,7 @@
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-4 enlace2">
           <!--<p> imagen dos con link y descripcion</p>-->
-          <div>
+          <div data-aos="fade-up">
             <a class="enlace2__a d-flex flex-column align-items-center justify-content-center" href="views/servicios.html">
               <img class="enlaces__img" src="img/disenos.png" alt="imagen servicios">
             </a>
@@ -144,7 +145,7 @@
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-4 enlace3">
           <!--<p> imagen tres con link y descripcion</p>-->
-          <div >
+          <div data-aos="fade-left">
             <a class="d-flex flex-column align-items-center justify-content-center" href="views/servicios.html">
               <img class="enlaces__img" src="img/sobrenosotros.png" alt="imagen impresion 3D">
             </a>
@@ -164,7 +165,7 @@
     <br>
   
     <br>
-    
+    <!-- inicio fila de videos -->
     <div class="container-fluid bg-info container__videos"> <!--Container de titulos y videos-->
       <div class="container-fluid ">
         <div class="row bg-info">
@@ -212,8 +213,8 @@
       </div>
     </div>
       
-
-    <div class="container-fluid containerGeneralStickers"> 
+    <!-- comienzo fija de stickers descriptivos de servicios -->
+    <div class="container-fluid containerGeneralStickers d-flex flex-row align-items-center justify-content-center"> 
       <div class="row d-flex flex-row justify-content-center align-items-center container__stickers">
 
         <div class="col-12 col-sm-12 col-md-12 col-lg-3 d-flex flex-column align-items-center col__stickers">
@@ -275,11 +276,6 @@
     </div>
 
     <!--Aca finaliza el espacio de stockers-->
-
-    <br>
-    <br>
-    <br>
-    <br>
     <footer class="container-fluid">
 
       <div class="row d-flex flex-row align-items-center justify-content-center bg-info">
@@ -298,15 +294,32 @@
         </div>
 
         <div class="col d-flex flex-row justify-content-center section__footer__links">
-          <section class=" d-flex flex-row align-items-center ">
+          <section>
             <div class="row">
-              <div class="col d-flex flex-column">
-                <ul class=" footer__links__ul">
-                  <li><a href="index.html"><h6>Inicio</h6></a></li>
-                  <li><a href="/views/productos.html"><h6>Productos</h6></a></li>
-                  <li><a href="/views/contacto.html"><h6>Contacto</h6></a></li>
-                  <li><a href="/views/servicios.html"><h6>Servicios</h6></a></li>
-                </ul>
+              <div class="col container">
+                <!-- Fila uno de lista -->
+                <ul class=" footer__links__ul d-flex flex-column m-0.5 justify-content-center align-items-center">
+                  <li class="section__footer__links__li">
+                    <a href="index.html" class="section__footer__links__a ">
+                      <h6>Inicio</h6>
+                    </a>
+                  </li>
+                  <li class="section__footer__links__li">
+                    <a href="/views/productos.html"class="section__footer__links__a ">
+                      <h6>Productos</h6>
+                    </a>
+                  </li>
+                  <li class="section__footer__links__li">
+                    <a href="/views/contacto.html"class="section__footer__links__a ">
+                    <h6>Contacto</h6>
+                    </a>
+                  </li>
+                  <li class="section__footer__links__li">
+                    <a href="/views/servicios.html"class="section__footer__links__a ">
+                      <h6>Servicios</h6>
+                    </a>
+                  </li>                  
+                </ul>                
               </div>
             </div>
           </section>
