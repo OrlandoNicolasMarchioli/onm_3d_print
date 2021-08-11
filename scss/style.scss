@@ -388,7 +388,13 @@ footer{
             text-align: center;
             font-size: 3em;
             margin:0;                
-        }   
+        }
+        @media (min-width: 540px) and (max-width: 992px){
+            text-align: center;
+            font-size: 4em;
+            margin-top: 1rem;
+            margin-left: 0;
+        }
         
     }
     @media (min-width: 360px) and (max-width: 540px){
@@ -398,8 +404,16 @@ footer{
         text-align: center;
         background-image: url("/img/imgProductos/imgProducto\ .jpg");
         display: flex;
+        flex-direction: column;        
+    }
+    @media (min-width: 540px) and (max-width: 992px){
+        height: 100px;
+        width: 100%;
+        margin-top: 0;
+        text-align: center;
+        background-image: url("/img/imgProductos/imgProducto\ .jpg");
+        display: flex;
         flex-direction: column;
-        
     }    
 }
 
@@ -412,7 +426,13 @@ footer{
         text-align: center;
         font-size: 2em;
         margin-top: 2rem;                
-    }   
+    }
+    @media (min-width: 540px) and (max-width: 992px){
+        margin-top: 4rem;
+        font-size: 3rem;
+        text-align: center;
+    }
+        
 }
 
 .container__productos{
@@ -518,6 +538,12 @@ footer{
                 color: $bgColorBlanco;
                 font-size: 2rem;
 
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                padding: 0;
+                font-size: 3rem;
+                color: $bgColorBlanco;
+                margin-bottom: 1rem;
             }  
         }
     }
@@ -530,6 +556,9 @@ footer{
         
         @media (min-width: 360px) and (max-width: 540px){
             font-size: 1rem;
+        }
+        @media (min-width: 540px) and (max-width: 992px){
+
         }  
     }
     .col__titulo__parrafo2{
@@ -540,10 +569,16 @@ footer{
 
         @media (min-width: 360px) and (max-width: 540px){
             font-size: 1rem;
+        }
+        @media (min-width: 540px) and (max-width: 992px){
+            font-size: 1rem;
         } 
     }
     @media (min-width: 360px) and (max-width: 540px){
         height: 40%;
+    }
+    @media (min-width: 540px) and (max-width: 992px){
+        height: 60%;
     } 
 }
 
@@ -571,6 +606,10 @@ footer{
         @media (min-width: 360px) and (max-width: 540px){
             width: 100%;
             height: 300px;
+        }
+        @media (min-width: 540px) and (max-width: 992px){
+            width: 100%;
+            height: 400px;
         } 
     }
     .container__enlacesDeBusqueda{
@@ -627,7 +666,7 @@ footer{
 
 .contactoContainer{
     margin-top: 0px;
-	background-color: $bgColorBlanco;
+	background-color: $bgColorCeleste1;
 
     .contacto__fotoContainer{
 
@@ -638,7 +677,20 @@ footer{
             
             .contacto__foto{
                 width: 100%;
+
+                @media (min-width: 360px) and (max-width: 540px){
+                    border-radius: 200px;
+                    margin-top: 0,5rem;
+                }                
             }
+            
+        }
+        @media (min-width: 360px) and (max-width: 540px){
+            margin-bottom: 1rem;
+            background-color: $bgColorCeleste1;
+        }
+        @media (min-width: 540px) and (max-width: 992px){
+            width: 100%;
         }
     }
     .section__contacto{
@@ -659,6 +711,20 @@ footer{
 	            font-family: $fontFamilyGeneral;	
 	            font-size: 4rem;
 	            text-align: center;
+
+                @media (min-width: 360px) and (max-width: 540px){
+                    font-size: 3rem;
+                }
+                @media (min-width: 540px) and (max-width: 992px){
+                    font-size: 3rem;
+                }
+            }
+            @media (min-width: 360px) and (max-width: 540px){
+                height: 4rem;                
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                height: 4rem;
+                margin-top: 1rem;
             }
         }
         .section__instagram{
@@ -684,6 +750,12 @@ footer{
 	            font-family: $fontFamilyGeneral;
 	            font-size: 20px;
             }
+            @media (min-width: 360px) and (max-width: 540px){
+                height: 4rem;                
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                height: 4rem;                
+            }
         }
         .section__mail{
             background-color: $bgColorBlanco;	
@@ -708,6 +780,14 @@ footer{
                 font-family: $fontFamilyGeneral;
                 font-size: 20px;
             }
+            @media (min-width: 360px) and (max-width: 540px){
+                height: 4rem;
+                margin-bottom: 2rem;                
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                height: 4rem; 
+                margin-bottom: 2rem;               
+            }
         }
     }
 }
@@ -725,10 +805,19 @@ footer{
             color: $bgColorCeleste1;
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
+            @media (min-width: 360px) and (max-width: 540px){
+                font-size: 2rem;                
+            }
         }
         .section__map__iframe{
             border-radius: 8px;
+            @media (min-width: 360px) and (max-width: 540px){
+                height: 300px;
+                width: 100%;
+                margin-bottom: 1rem;                
+            }
         }
+        
     }
     .section__form{
 
@@ -737,6 +826,12 @@ footer{
             color: $bgColorCeleste1;
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
+            @media (min-width: 360px) and (max-width: 540px){
+                font-size: 2rem;                
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                margin-top: 1.5rem;
+            }
         }
         .section__form__form{
             background-image: linear-gradient(to bottom,$bgColorCeleste1, $bgColorBlanco) ;
@@ -750,6 +845,10 @@ footer{
                 margin-bottom: 1rem;
                 height: 3rem;
 
+                @media (min-width: 360px) and (max-width: 540px){
+                    text-align: center;                
+                }
+
                 label{
                     color: $bgColorCeleste1;
                     font-family: $fontFamilyGeneral;
@@ -757,7 +856,11 @@ footer{
                     
                 }
                 .section__form__input{
-                    margin: 2rem;                    
+                    margin: 2rem;
+                    
+                    @media (min-width: 360px) and (max-width: 540px){
+                        width: 130%;                
+                    }
                 }
             }
             .section__form__container__input{
@@ -766,6 +869,10 @@ footer{
                 .section__form__input__textArea{
                     width: 90%;
                     height: 70%;
+                    @media (min-width: 360px) and (max-width: 540px){
+                        height: 100px;
+                        margin-bottom: 1rem;                
+                    }
                 }
             }
             
@@ -783,6 +890,10 @@ footer{
                     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
                     transition: 0.5s;
                 }
+            }
+            @media (min-width: 360px) and (max-width: 540px){
+                height: 350px;
+                width: 100%;                
             }
         }
     }
