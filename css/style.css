@@ -329,12 +329,37 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 800;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .containerImg__productos .titulo__img__productos {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .containerImg__productos {
+    height: 60px;
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+    background-image: url("/img/imgProductos/imgProducto .jpg");
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .container__tituloProductos__h2 {
   color: #0DCAF0;
   font-family: "Noto Sans JP", sans-serif;
   margin-top: 20px;
   font-size: 4rem;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__tituloProductos__h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 2rem;
+  }
 }
 
 .container__productos .container__img .container__productos__enlace {
@@ -359,6 +384,11 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 .container__productos .container__img .container__productos__enlace .container__productos__enlace__h2:hover {
   color: white;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__productos .container__img .container__productos__enlace {
+    margin-top: 2rem;
+  }
+}
 .container__productos .container__img .carousel .carousel-inner {
   text-align: center;
   width: 700px;
@@ -370,6 +400,19 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   text-align: center;
   margin-top: 1rem;
   border-radius: 10px;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__productos .container__img .carousel .carousel-inner .carousel-item .carousel__productos__img {
+    height: 450px;
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__productos .container__img .carousel .carousel-inner {
+    height: 450px;
+    width: 100%;
+  }
 }
 .container__productos .container__img .carousel-control-prev-icon {
   background-color: #0DCAF0;
@@ -394,9 +437,16 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   text-align: center;
 }
 .container__busqueda .col__titulo__busqueda .col__titulo__busqueda__h2 {
-  color: white;
+  color: #0DCAF0;
   font-family: "Noto Sans JP", sans-serif;
   padding: 15px;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__busqueda .col__titulo__busqueda .col__titulo__busqueda__h2 {
+    padding: 0;
+    color: white;
+    font-size: 2rem;
+  }
 }
 .container__busqueda .col__titulo__parrafo1 {
   color: white;
@@ -404,11 +454,26 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   text-align: center;
   font-size: 25px;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__busqueda .col__titulo__parrafo1 {
+    font-size: 1rem;
+  }
+}
 .container__busqueda .col__titulo__parrafo2 {
   color: white;
   font-family: "Noto Sans JP", sans-serif;
   text-align: center;
   font-size: 25px;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__busqueda .col__titulo__parrafo2 {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__busqueda {
+    height: 40%;
+  }
 }
 
 .container__titulos__descarga {
@@ -421,14 +486,33 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__titulos__descarga .col__tituloDescarga {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
 .container__titulos__descarga .container__descargas__iframe .container__descargas__iframe {
   border-radius: 20px;
   width: 100%;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__titulos__descarga .container__descargas__iframe {
+    width: 100%;
+    height: 300px;
+  }
 }
 .container__titulos__descarga .container__enlacesDeBusqueda .col__enlaces {
   color: #0DCAF0;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 2.5rem;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__titulos__descarga .container__enlacesDeBusqueda .col__enlaces {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+  }
 }
 .container__titulos__descarga .container__enlacesDeBusqueda .col__enlaces__stl {
   margin-top: 2rem;

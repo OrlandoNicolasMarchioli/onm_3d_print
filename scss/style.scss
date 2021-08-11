@@ -18,13 +18,10 @@
 
 
 .navbar{
-    
-
     @media (min-width: 540px) and (max-width: 910px){
         width: 100%;
     }
 }
-
 
 .container-fluid{
     .row__parrafo{
@@ -376,7 +373,8 @@ footer{
 .containerImg__productos{    
 	height: 1200px;
     background-image: url("/img/imgProductos/imgProducto\ .jpg");
-    margin: 0;
+    margin: 0;   
+
 
     .titulo__img__productos{
         color: $bgColorCeleste1;
@@ -385,7 +383,24 @@ footer{
         font-size: 6rem;
         font-family: $fontFamilyGeneral;
         font-weight: 800;
+
+        @media (min-width: 360px) and (max-width: 540px){
+            text-align: center;
+            font-size: 3em;
+            margin:0;                
+        }   
+        
     }
+    @media (min-width: 360px) and (max-width: 540px){
+        height: 60px;
+        width: 100%;
+        margin-top: 1rem;
+        text-align: center;
+        background-image: url("/img/imgProductos/imgProducto\ .jpg");
+        display: flex;
+        flex-direction: column;
+        
+    }    
 }
 
 .container__tituloProductos__h2{
@@ -393,6 +408,11 @@ footer{
 	font-family: $fontFamilyGeneral;
 	margin-top: 20px;
     font-size: 4rem;
+    @media (min-width: 360px) and (max-width: 540px){
+        text-align: center;
+        font-size: 2em;
+        margin-top: 2rem;                
+    }   
 }
 
 .container__productos{
@@ -424,7 +444,12 @@ footer{
                     color: $bgColorBlanco
                     
                 }
+                
             }
+            @media (min-width: 360px) and (max-width: 540px){
+                
+                margin-top: 2rem;
+            }  
         }
 
         .carousel{
@@ -435,14 +460,26 @@ footer{
                 height: 700px;
 
                 .carousel-item{
+                    
                     .carousel__productos__img{
                         height: 650px;
 	                    width: 90%;
 	                    text-align: center;
 	                    margin-top: 1rem;
 	                    border-radius: 10px;
+
+                        @media (min-width: 360px) and (max-width: 540px){
+                            height: 450px;
+                            width: 100%;
+                            margin: 0;
+                        }   
                     }
                 }
+                @media (min-width: 360px) and (max-width: 540px){
+                    height: 450px;
+                    width: 100%;
+                    
+                }  
             }
         }
         .carousel-control-prev-icon{
@@ -465,31 +502,49 @@ footer{
 
 .container__busqueda{
     height: 30%;
-	background-color: #0DCAF0;
+	background-color: $bgColorCeleste1;
     
     
     .col__titulo__busqueda{
         text-align: center;
 
         .col__titulo__busqueda__h2{
-            color: white;
+            color: $bgColorCeleste1;
 	        font-family: $fontFamilyGeneral;
 	        padding: 15px;
+
+            @media (min-width: 360px) and (max-width: 540px){
+                padding: 0;
+                color: $bgColorBlanco;
+                font-size: 2rem;
+
+            }  
         }
     }
 
     .col__titulo__parrafo1{
-            color: $bgColorBlanco;
-	        font-family: $fontFamilyGeneral;
-	        text-align: center;
-	        font-size: 25px;
+        color: $bgColorBlanco;
+	    font-family: $fontFamilyGeneral;
+	    text-align: center;
+	    font-size: 25px;
+        
+        @media (min-width: 360px) and (max-width: 540px){
+            font-size: 1rem;
+        }  
     }
     .col__titulo__parrafo2{
             color: $bgColorBlanco;
-	        font-family: $fontFamilyGeneral;
-	        text-align: center;
-	        font-size: 25px;
+        font-family: $fontFamilyGeneral;
+        text-align: center;
+        font-size: 25px;
+
+        @media (min-width: 360px) and (max-width: 540px){
+            font-size: 1rem;
+        } 
     }
+    @media (min-width: 360px) and (max-width: 540px){
+        height: 40%;
+    } 
 }
 
 .container__titulos__descarga{
@@ -501,18 +556,34 @@ footer{
 	    font-family: $fontFamilyGeneral;
         font-size: 2.5rem;
         margin-bottom: 2rem;
+
+        @media (min-width: 360px) and (max-width: 540px){
+            font-size: 2rem;
+            text-align: center;
+        } 
     }
     .container__descargas__iframe{
         .container__descargas__iframe{
             border-radius: 20px;
             width: 100%;
+
         }
+        @media (min-width: 360px) and (max-width: 540px){
+            width: 100%;
+            height: 300px;
+        } 
     }
     .container__enlacesDeBusqueda{
         .col__enlaces{
             color: $bgColorCeleste1;
 	        font-family: $fontFamilyGeneral;
             font-size:  2.5rem;
+
+            @media (min-width: 360px) and (max-width: 540px){
+                margin-top: 1rem;
+                text-align: center;
+                font-size: 2rem;
+            } 
         }
         .col__enlaces__stl{
             margin-top: 2rem;
@@ -545,6 +616,10 @@ footer{
             }
         }
     }
+}
+
+@media (min-width: 360px) and (max-width: 540px){
+
 }
 /* Aca termina productos */
 
