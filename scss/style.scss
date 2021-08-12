@@ -299,46 +299,54 @@ footer{
     a{
         color: $bgColorBlanco;
     }
-    
-    .footer__instagram{
-    
-        .instagram__link{
-            border-radius: 50px;
-            width: 40px;
-            height: 40px;      
-    
-            &:hover{
-                opacity: 0.7;
-                transition: 1s;
+    .container__InstagramEmail{
+        @media screen and (min-width: 360px) and (max-width: 540px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 1rem;
+        }
+
+        .footer__instagram{
+        
+            .instagram__link{
+                border-radius: 50px;
+                width: 40px;
+                height: 40px;      
+        
+                &:hover{
+                    opacity: 0.7;
+                    transition: 1s;
+                }
             }
-        }
-        .footer__instagram__h5{
-            color: $bgColorBlanco;
-            font-family: $fontFamilyGeneral;
-            font-size: 20px;
-        }
-        
-    }
-    
-    .footer__mail{
-        
-        .mail__link{
-            border-radius: 50px;
-            width: 30px;
-            height: 30px; 
-            margin-left: 0.3rem;     
-    
-            &:hover{
-                opacity: 0.7;
-                transition: 1s;
+            .footer__instagram__h5{
+                color: $bgColorBlanco;
+                font-family: $fontFamilyGeneral;
+                font-size: 20px;
             }
-        }
-        .footer__mail__h5{
-            color: $bgColorBlanco;
-            font-family: $fontFamilyGeneral;
-            font-size: 20px;
+            
         }
         
+        .footer__mail{
+            
+            .mail__link{
+                border-radius: 50px;
+                width: 30px;
+                height: 30px; 
+                margin-left: 0.3rem;     
+        
+                &:hover{
+                    opacity: 0.7;
+                    transition: 1s;
+                }
+            }
+            .footer__mail__h5{
+                color: $bgColorBlanco;
+                font-family: $fontFamilyGeneral;
+                font-size: 20px;
+            }
+            
+        }
     }
 
     .section__footer__links{
@@ -905,12 +913,34 @@ footer{
 
 /* inicio de seccion servicios */
 
+.container__imagenServicios{
+    .img-fluid{
+        @media (min-width: 360px) and (max-width: 540px){
+            
+            height: 250px;                       
+        }
+    }
+    @media (min-width: 360px) and (max-width: 540px){
+        
+        height: 300px;                       
+    }
+}
+
 .servicios__h1{
     font-size: 4rem;
     font-family: $fontFamilyGeneral;
     color: $bgColorCeleste1;
     text-align: center;
     margin-top: 2rem;
+    @media (min-width: 360px) and (max-width: 540px){
+        font-size: 2.5rem;
+        font-weight: 900;
+        margin-top: 0;                
+    }
+    @media (min-width: 540px) and (max-width: 992px){
+        font-size: 4rem;
+        font-weight: 900;
+    }
 }
 
 .container__htmlServicios{
@@ -927,19 +957,50 @@ footer{
         .col__imgImpresion3d{
             width: 250px;
 	        height: 250px;
+            @media (min-width: 360px) and (max-width: 540px){
+                width: 250px;
+	            height: 250px;                       
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                width: 300px;
+                height: 300px; 
+            }
         }
 
         .col__imgDiseno3d{
             width: 200px;
             height: 200px;
-            
+            @media (min-width: 360px) and (max-width: 540px){
+                width: 200px;
+	            height: 200px;                       
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                width: 250px;
+                height: 250px; 
+            }
         }
         
         .col__imgProductos{
             width: 200px;
             height: 200px;
-        
+            @media (min-width: 360px) and (max-width: 540px){
+                width: 200px;
+	            height: 200px;                       
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                width: 250px;
+                height: 250px; 
+            }
         }
+        @media (min-width: 360px) and (max-width: 540px){
+            width: 300px;
+            height: 300px;                   
+        }
+        @media (min-width: 540px) and (max-width: 992px){
+            width: 400px;
+            height: 400px; 
+        }
+        
     }
     .col__h3{
 
@@ -949,6 +1010,16 @@ footer{
             font-size: 2.5rem;
             text-align: center;	
             margin-top: 2rem;
+
+            @media (min-width: 360px) and (max-width: 540px){
+                font-size: 2.5rem;
+                margin-top: 0;
+
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                font-size: 3rem;
+                margin-top: 1rem;
+            }
         }
         
         
@@ -958,6 +1029,14 @@ footer{
             font-size: 1rem;
             text-align: center;	
             margin-top: 1rem;
+            @media (min-width: 360px) and (max-width: 540px){
+                font-size: 1.5rem;
+                margin-bottom: 3rem;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
         }
     }
 }
@@ -974,6 +1053,14 @@ footer{
 	margin-top: 3rem;
     margin-bottom: 2rem;
 	text-align: center;
+    @media (min-width: 360px) and (max-width: 540px){
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+    @media (min-width: 540px) and (max-width: 992px){
+        
+    }
 }
 
 .container__general__mates{
@@ -982,12 +1069,26 @@ footer{
 
     .container__mates{
         margin-top: 2rem;
+        @media (min-width: 360px) and (max-width: 540px){
+            
+            margin-top: 0;
+        }
+        @media (min-width: 540px) and (max-width: 992px){
+            
+        }
 
         .container__mates__h2{
             color: $bgColorBlanco;
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
             margin-bottom: 2rem;
+            @media (min-width: 360px) and (max-width: 540px){
+                
+                margin-top: 2rem;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                
+            }
         }
 
         .container__mates__mate{
@@ -1000,6 +1101,13 @@ footer{
                 transform: scale(1.1,1.1);
 	            transition: 1s;            
                 
+            }
+            @media (min-width: 360px) and (max-width: 540px){
+                width: 100%;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                font-size: 2rem;
+                margin-bottom: 2rem;
             }
         }
     }
@@ -1024,6 +1132,13 @@ footer{
                 transform: scale(1.1,1.1);
                 transition: 1s;	
             }
+        }
+        @media (min-width: 360px) and (max-width: 540px){
+            width: 100%;
+        }
+        @media (min-width: 540px) and (max-width: 992px){
+            font-size: 2rem;
+            margin-bottom: 2rem;
         }
     }
 }
