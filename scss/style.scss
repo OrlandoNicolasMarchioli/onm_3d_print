@@ -33,7 +33,11 @@
             .parrafo__titulo__h1{
                 font-family: $fontFamilyGeneral;
                 font-size: 4rem;
-                font-weight: 600;                
+                font-weight: 600;
+
+                @media (min-width: 360px) and (max-width: 540px){
+                    font-size: 3rem;
+                }                
             }
         }
         .parrafo__descripcion{
@@ -46,19 +50,14 @@
             }
         }
     } 
-    @media (min-width: 300px) and (max-width: 768px){       
-        .parrafo__descripcion__h2{
-            font-size: 3vh;
-            
-        }
-    }
+    
     
 }
 
 .container__enlaces{
-    width: 90%;    
+    width: 100%;    
     text-align: center;
-    margin-left: 5%;
+    
 
     .enlace1{
         border-radius: 20px;	    
@@ -70,6 +69,10 @@
                 transform: scale(1.05,1.05);
 	            transition: 1.5s;	
             }
+            @media (min-width: 540px) and (max-width: 992px){
+                width: 350px;
+                height: 350px;
+            }
         }
         .enlace1__h2{
             color: $bgColorCeleste1;
@@ -77,13 +80,35 @@
 	        display: flex;
             font-size: 3rem;
 	        justify-content: space-around;
-	        text-align: center;            
+	        text-align: center;
+
+            .enlace1__h2__h2{
+                
+                @media (min-width: 540px) and (max-width: 992px){
+                    font-size: 2.5rem;
+                    font-weight: 600;                
+                }
+            }
+            
+
         }
         .enlace__p{
             color: $bgColorCeleste1;
 	        font-family: $fontFamilyGeneral;	        
 	        text-align: center;
 	        font-size: 20px;
+
+            p{
+                @media (min-width: 540px) and (max-width: 992px){
+                    font-size: 1.5rem;
+                    font-weight: 400;                
+                }
+            }
+            
+        }
+        @media (min-width: 360px) and (max-width: 540px){
+            width: 100%;
+            text-align: center;
         }
     }
     .enlace2{
@@ -96,6 +121,10 @@
                 transform: scale(1.05,1.05);
 	            transition: 1.5s;	
             }
+            @media (min-width: 540px) and (max-width: 992px){
+                width: 400px;
+                height: 400px;
+            }
         }
         .enlace2__h2{
             color: $bgColorCeleste1;
@@ -103,6 +132,13 @@
 	        display: flex;
 	        justify-content: space-around;
 	        text-align: center;
+            .enlace2__h2__h2{
+                
+                @media (min-width: 540px) and (max-width: 992px){
+                    font-size: 2.5rem;
+                    font-weight: 600;                
+                }
+            }
         }
         .enlace__p{
             color: $bgColorCeleste1;
@@ -111,8 +147,18 @@
 	        justify-content: space-around;
 	        text-align: center;
 	        font-size: 20px;
+            p{
+                @media (min-width: 540px) and (max-width: 992px){
+                    font-size: 1.5rem;
+                    font-weight: 400;                
+                }
+            }
         }
+        @media (min-width: 360px) and (max-width: 540px){
+            width: 100%;
+            text-align: center;
         }
+    }
     
     .enlace3{
         border-radius: 20px;
@@ -125,6 +171,10 @@
                 transform: scale(1.05,1.05);
 	            transition: 1.5s;	
             }
+            @media (min-width: 540px) and (max-width: 992px){
+                width: 350px;
+                height: 350px;
+            }
         }
         .enlace3__h2{
             color: $bgColorCeleste1;
@@ -132,6 +182,13 @@
 	        display: flex;
 	        justify-content: space-around;
 	        text-align: center;
+
+            .enlace3__h2__h2{                
+                @media (min-width: 540px) and (max-width: 992px){
+                    font-size: 2.5rem;
+                    font-weight: 600;                
+                }
+            }
         }
         .enlace__p{
             color: $bgColorCeleste1;
@@ -140,24 +197,21 @@
 	        justify-content: space-around;
 	        text-align: center;
 	        font-size: 20px;
+            p{
+                @media (min-width: 540px) and (max-width: 992px){
+                    font-size: 1.5rem;
+                    font-weight: 400;                
+                }
+            }
         }
-    }
-    @media screen and (min-width: 360px) and (max-width: 540px){       
-        .container__enlaces{  
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+        @media (min-width: 360px) and (max-width: 540px){
+            width: 100%;
+        }
         
-            .enlace1__h2__h2{
-                font-size: 3rem;            
-            }
-            .enlace2__h2__h2{
-                font-size: 3rem;            
-            }
-            .enlace3__h2__h2{
-                font-size: 3rem;            
-            }
-        }
+    }
+    @media (min-width: 360px) and (max-width: 540px){
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -169,6 +223,14 @@
 	    margin-bottom: 2rem;
 	    font-family: $fontFamilyGeneral;
 	    color: $bgColorBlanco;
+
+        h2{
+            @media (min-width: 540px) and (max-width: 992px){
+                font-size: 2.5rem;
+                font-weight: 600;                
+            }
+        }
+        
     }
     .columna__video{
         height: 270px;
@@ -207,6 +269,11 @@
 	    font-family: $fontFamilyGeneral;
 	    margin-top: 2rem;
         font-size: 2.5rem;
+
+        @media (min-width: 540px) and (max-width: 992px){
+            font-size: 2.5rem;
+            font-weight: 600;                
+        }
     }
 }
 /*Aca comienza el espacio de stickers */
@@ -226,30 +293,57 @@
                 width: 80px;
                 height: 80px;	
                 text-align: center;	
+
                 .col__img1{
                     width: 50px;
                     height: 50px;
+
+                    @media (min-width: 540px) and (max-width: 992px){
+                        width: 100px;
+                        height: 100px;
+                    }
                 }
                 .col__img2{
                     width: 70px;
                     height: 70px;
                     margin-right: 5px;
+
+                    @media (min-width: 540px) and (max-width: 992px){
+                        width: 150px;
+                        height: 150px;
+                    }
                 }
                 .col__img3{
                     width: 65px;
                     height: 65px;
+
+                    @media (min-width: 540px) and (max-width: 992px){
+                        width: 150px;
+                        height: 150px;
+                    }
                 }
                 .col__img4{
                     width: 65px;
                     height: 65px;
-                    margin-right: 5px;	
+                    margin-right: 5px;
+                    
+                    @media (min-width: 540px) and (max-width: 992px){
+                        width: 150px;
+                        height: 150px;
+                    }
                 }
+                @media (min-width: 540px) and (max-width: 992px){
+                    width: 200px;
+                    height: 200px;
+                                    
+                }                
             }
             .col__h3{
                 .col__asistenciaTecnica{
                     color: $bgColorCeleste1;
                     font-family: $fontFamilyGeneral;
-                    text-align: center;	            
+                    text-align: center;
+                    	            
                 }
                 
                 .col__disenosAMedida{
@@ -273,19 +367,17 @@
                     color: lightskyblue;
                     font-family: $fontFamilyGeneral;
                     font-size: 20px;
-                    text-align: center;           
+                    text-align: center;
+                    @media (min-width: 540px) and (max-width: 992px){
+                        margin-bottom: 2rem;
+                    }           
                 }
             }
             
         }
     }
-    @media screen and (min-width: 360px) and (max-width: 540px){
-        .containerGeneralStickers{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            
-        }
+    @media (min-width: 540px) and (max-width: 992px){
+        margin-bottom: 4rem;
     }
 }
 
@@ -1047,10 +1139,10 @@ footer{
 
 .container__tituloMates__h2{
 	color: $bgColorCeleste1;
-	font-size: 4rem;
+	font-size: 6rem;
 	font-family: $fontFamilyGeneral;
     font-weight: 600;
-	margin-top: 3rem;
+	margin-top: 2rem;
     margin-bottom: 2rem;
 	text-align: center;
     @media (min-width: 360px) and (max-width: 540px){
@@ -1066,36 +1158,34 @@ footer{
 .container__general__mates{
 	background-color: $bgColorCeleste1;
 	border-radius: 8px;
+    margin-bottom: 4rem;
 
     .container__mates{
-        margin-top: 2rem;
+        margin-top: 1rem;
         @media (min-width: 360px) and (max-width: 540px){
             
             margin-top: 0;
-        }
-        @media (min-width: 540px) and (max-width: 992px){
-            
         }
 
         .container__mates__h2{
             color: $bgColorBlanco;
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
+            font-weight: 800;
             margin-bottom: 2rem;
-            @media (min-width: 360px) and (max-width: 540px){
-                
+            @media (min-width: 360px) and (max-width: 540px){           
                 margin-top: 2rem;
             }
             @media (min-width: 540px) and (max-width: 992px){
-                
+                margin-top: 2rem;
+                font-size: 3rem;
             }
         }
 
         .container__mates__mate{
-            height: 400px;
-            width: 400px;
-            border-radius: 8px;
-            background-image: url("/img/imgProductos/mates/Matevader.jpeg");
+            height: 300px;
+            width: 300px;
+            border-radius: 8px;            
 
             &:hover {
                 transform: scale(1.1,1.1);
@@ -1106,40 +1196,80 @@ footer{
                 width: 100%;
             }
             @media (min-width: 540px) and (max-width: 992px){
-                font-size: 2rem;
-                margin-bottom: 2rem;
+                height: 400px;
+                width: 400px;
+            }
+            @media (min-width: 992px) and (max-width: 1200px){
+                height: 275px;
+                width: 275px;
+            }
+            @media (min-width: 1200px) and (max-width: 1400px){
+                height: 300px;
+                width: 300px;
             }
         }
     }
 
     .container__mates__ultimaFila{
         margin-top: 2rem;
-        padding-bottom: 2rem;
+        margin-bottom: 4rem;
+
+        @media (min-width: 360px) and (max-width: 540px){            
+            margin-top: 0;
+        }
+        @media (min-width: 540px) and (max-width: 992px){
+            
+        }
 
         .container__mates__h2{
             color: $bgColorBlanco;
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
+            font-weight: 800;
             margin-bottom: 2rem;
+            @media (min-width: 360px) and (max-width: 540px){           
+                margin-top: 2rem;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                margin-top: 2rem;
+                font-size: 3rem;
+            }
         }
 
         .container__mates__mate{
-            height: 400px;
-            width: 400px;
-            border-radius: 8px;
+            height: 300px;
+            width: 300px;
+            border-radius: 8px;            
 
-            &:hover{
+            &:hover {
                 transform: scale(1.1,1.1);
-                transition: 1s;	
+	            transition: 1s;            
+                
+            }
+            @media (min-width: 360px) and (max-width: 540px){
+                width: 100%;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                height: 400px;
+                width: 400px;
+            }
+            @media (min-width: 992px) and (max-width: 1200px){
+                height: 275px;
+                width: 275px;
+            }
+            @media (min-width: 1200px) and (max-width: 1400px){
+                height: 300px;
+                width: 300px;
             }
         }
-        @media (min-width: 360px) and (max-width: 540px){
-            width: 100%;
-        }
-        @media (min-width: 540px) and (max-width: 992px){
-            font-size: 2rem;
-            margin-bottom: 2rem;
-        }
+    }
+    @media (min-width: 360px) and (max-width: 540px){
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
+    @media (min-width: 540px) and (max-width: 992px){
+        font-size: 2rem;
+        margin-bottom: 2rem;
     }
 }
 
