@@ -63,7 +63,7 @@
 }
 .container__enlaces .row__enlaces .enlace1 {
   border-radius: 20px;
-  margin-top: 2rem;
+  margin-top: 0;
 }
 .container__enlaces .row__enlaces .enlace1 .enlaces__img {
   width: 250px;
@@ -92,6 +92,12 @@
   font-size: 3rem;
   justify-content: space-around;
   text-align: center;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__enlaces .row__enlaces .enlace1 .enlace1__h2 .enlace1__h2__h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
 }
 @media (min-width: 540px) and (max-width: 992px) {
   .container__enlaces .row__enlaces .enlace1 .enlace1__h2 .enlace1__h2__h2 {
@@ -129,6 +135,11 @@
     text-align: center;
   }
 }
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container__enlaces .row__enlaces .enlace1 {
+    margin-top: 5rem;
+  }
+}
 .container__enlaces .row__enlaces .enlace2 {
   border-radius: 20px;
 }
@@ -158,6 +169,12 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__enlaces .row__enlaces .enlace2 .enlace2__h2 .enlace2__h2__h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
 }
 @media (min-width: 540px) and (max-width: 992px) {
   .container__enlaces .row__enlaces .enlace2 .enlace2__h2 .enlace2__h2__h2 {
@@ -228,6 +245,12 @@
   justify-content: space-around;
   text-align: center;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__enlaces .row__enlaces .enlace3 .enlace3__h2 .enlace3__h2__h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+}
 @media (min-width: 540px) and (max-width: 992px) {
   .container__enlaces .row__enlaces .enlace3 .enlace3__h2 .enlace3__h2__h2 {
     font-size: 2.5rem;
@@ -265,10 +288,22 @@
     width: 100%;
   }
 }
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container__enlaces .row__enlaces .enlace3 {
+    margin-top: 7rem;
+  }
+}
 @media (min-width: 360px) and (max-width: 540px) {
   .container__enlaces .row__enlaces {
     width: 100%;
     text-align: center;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container__enlaces .row__enlaces {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 }
 @media (min-width: 360px) and (max-width: 540px) {
@@ -284,6 +319,12 @@
   font-family: "Noto Sans JP", sans-serif;
   color: white;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .columna__titulo .contenido__title h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
 @media (min-width: 540px) and (max-width: 992px) {
   .columna__titulo .contenido__title h2 {
     font-size: 2.5rem;
@@ -294,6 +335,11 @@
   .columna__titulo .contenido__title h2 {
     font-size: 3rem;
     font-weight: 600;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .columna__titulo .contenido__title {
+    margin-bottom: 0;
   }
 }
 .columna__titulo .columna__video {
@@ -310,10 +356,20 @@
   border-radius: 8px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .columna__titulo .columna__video .contenido__iframe {
+    width: 85vw;
+  }
+}
 @media (min-width: 992px) and (max-width: 1200px) {
   .columna__titulo .columna__video .contenido__iframe {
     width: 60vw;
     height: 40vh;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .columna__titulo .columna__video .contenido__iframe {
+    margin-bottom: 0rem;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -328,6 +384,13 @@
   font-family: "Noto Sans JP", sans-serif;
   margin-top: 2rem;
   font-size: 2.5rem;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container-fluid .container__h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
 }
 @media (min-width: 540px) and (max-width: 992px) {
   .container-fluid .container__h2 {
@@ -408,25 +471,86 @@
   font-family: "Noto Sans JP", sans-serif;
   text-align: center;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .containerGeneralStickers .container__stickers .col__stickers .col__h3 .col__asistenciaTecnica {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .containerGeneralStickers .container__stickers .col__stickers .col__h3 .col__asistenciaTecnica {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+}
 .containerGeneralStickers .container__stickers .col__stickers .col__h3 .col__disenosAMedida {
   color: #0DCAF0;
   font-family: "Noto Sans JP", sans-serif;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .containerGeneralStickers .container__stickers .col__stickers .col__h3 .col__disenosAMedida {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .containerGeneralStickers .container__stickers .col__stickers .col__h3 .col__disenosAMedida {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
 }
 .containerGeneralStickers .container__stickers .col__stickers .col__h3 .col__enviosATodoElPais {
   color: #0DCAF0;
   font-family: "Noto Sans JP", sans-serif;
   text-align: center;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .containerGeneralStickers .container__stickers .col__stickers .col__h3 .col__enviosATodoElPais {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .containerGeneralStickers .container__stickers .col__stickers .col__h3 .col__enviosATodoElPais {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+}
 .containerGeneralStickers .container__stickers .col__stickers .col__h3 .col__postVenta {
   color: #0DCAF0;
   font-family: "Noto Sans JP", sans-serif;
   text-align: center;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .containerGeneralStickers .container__stickers .col__stickers .col__h3 .col__postVenta {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .containerGeneralStickers .container__stickers .col__stickers .col__h3 .col__postVenta {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
 }
 .containerGeneralStickers .container__stickers .col__stickers .col__h3 .col__descripcion {
   color: lightskyblue;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 20px;
   text-align: center;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .containerGeneralStickers .container__stickers .col__stickers .col__h3 .col__descripcion {
+    margin-bottom: 1rem;
+  }
 }
 @media (min-width: 540px) and (max-width: 992px) {
   .containerGeneralStickers .container__stickers .col__stickers .col__h3 .col__descripcion {
@@ -537,7 +661,7 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 @media (min-width: 360px) and (max-width: 540px) {
   .containerImg__productos {
     height: 60px;
-    width: 100%;
+    width: 95vw;
     margin-top: 1rem;
     text-align: center;
     background-image: url("/img/imgProductos/imgProducto .jpg");
@@ -603,6 +727,7 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 @media (min-width: 360px) and (max-width: 540px) {
   .container__productos .container__img .container__productos__enlace {
     margin-top: 2rem;
+    margin-bottom: 0;
   }
 }
 .container__productos .container__img .carousel .carousel-inner {
@@ -619,8 +744,8 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 }
 @media (min-width: 360px) and (max-width: 540px) {
   .container__productos .container__img .carousel .carousel-inner .carousel-item .carousel__productos__img {
-    height: 450px;
-    width: 100%;
+    height: 40vh;
+    width: 85vw;
     margin: 0;
   }
 }
@@ -630,6 +755,11 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
     width: 100%;
   }
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__productos .container__img .carousel .carousel-inner {
+    margin-top: 2rem;
+  }
+}
 .container__productos .container__img .carousel-control-prev-icon {
   background-color: #0DCAF0;
   color: #0DCAF0;
@@ -637,12 +767,34 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   width: 60px;
   height: 60px;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__productos .container__img .carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
 .container__productos .container__img .carousel-control-next-icon {
   background-color: #0DCAF0;
   color: #0DCAF0;
   border-radius: 50px;
   width: 60px;
   height: 60px;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__productos .container__img .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__productos .container__img {
+    height: 60vh;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__productos {
+    margin-top: 1rem;
+  }
 }
 
 .container__busqueda {
