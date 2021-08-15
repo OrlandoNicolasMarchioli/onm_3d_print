@@ -265,8 +265,11 @@
             @media (min-width: 360px) and (max-width: 540px){
                 width: 100%;
             }
-            @media (min-width: 1200px) and (max-width: 1400px){
+            @media (min-width: 1200px) and (max-width: 1300px){
                 margin-top: 7rem;
+            }
+            @media (min-width: 1400px) and (max-width: 2000px){
+                margin-top: 0;
             }
             
         }
@@ -365,6 +368,7 @@
             font-weight: 600;                
         }
     }
+    
 }
 /*Aca comienza el espacio de stickers */
 .containerGeneralStickers{
@@ -631,6 +635,12 @@ footer{
             margin-top: 1rem;
             margin-left: 0;
         }
+        @media (min-width: 992px) and (max-width: 1200px){
+            text-align: center;
+            font-size: 5em;
+            margin-top: 1rem;
+            margin-left: 0;
+        }
         
     }
     @media (min-width: 360px) and (max-width: 540px){
@@ -650,7 +660,16 @@ footer{
         background-image: url("/img/imgProductos/imgProducto\ .jpg");
         display: flex;
         flex-direction: column;
-    }    
+    }
+    @media (min-width: 992px) and (max-width: 1200px){
+        height: 120px;
+        width: 100%;
+        margin-top: 0;
+        text-align: center;
+        background-image: url("/img/imgProductos/imgProducto\ .jpg");
+        display: flex;
+        flex-direction: column;
+    }     
 }
 
 .container__tituloProductos__h2{
@@ -668,6 +687,9 @@ footer{
         font-size: 3rem;
         text-align: center;
     }
+    @media (min-width: 1400px) and (max-width: 2000px){
+            font-weight: 700;
+        }
         
 }
 
@@ -804,7 +826,17 @@ footer{
                 font-size: 3rem;
                 color: $bgColorBlanco;
                 margin-bottom: 1rem;
-            }  
+            }
+            @media (min-width: 992px) and (max-width: 1200px){
+                    color: $bgColorBlanco;
+                    font-weight: 600;
+            }
+            
+            @media (min-width: 1400px) and (max-width: 2000px){                
+                color: $bgColorBlanco;
+                font-weight: 600;
+            }
+            
         }
     }
 
@@ -837,9 +869,13 @@ footer{
     @media (min-width: 360px) and (max-width: 540px){
         height: 40%;
     }
-    @media (min-width: 540px) and (max-width: 992px){
+    @media (min-width: 540px) and (max-width: 768px){
         height: 60%;
-    } 
+    }
+    @media (min-width: 768px) and (max-width: 992px){
+        height: 30vh;
+    }
+    
 }
 
 .container__titulos__descarga{
@@ -855,7 +891,11 @@ footer{
         @media (min-width: 360px) and (max-width: 540px){
             font-size: 2rem;
             text-align: center;
-        } 
+        }
+        @media (min-width: 768px) and (max-width: 992px){
+            font-weight: 600;
+        }
+         
     }
     .container__descargas__iframe{
         .container__descargas__iframe{
@@ -870,7 +910,11 @@ footer{
         @media (min-width: 540px) and (max-width: 992px){
             width: 100%;
             height: 400px;
-        } 
+        }
+        @media (min-width: 1400px) and (max-width: 2000px){                
+            width: 100%;
+            height: 400px;
+        }  
     }
     .container__enlacesDeBusqueda{
         .col__enlaces{
@@ -882,6 +926,10 @@ footer{
                 margin-top: 1rem;
                 text-align: center;
                 font-size: 2rem;
+            }
+            @media (min-width: 768px) and (max-width: 992px){
+                font-weight: 600;
+                margin-top: 1rem;
             } 
         }
         .col__enlaces__stl{
@@ -1076,6 +1124,9 @@ footer{
                 width: 100%;
                 margin-bottom: 1rem;                
             }
+            @media (min-width: 1400px) and (max-width: 2000px){
+                width: 35vw;
+            }
         }
         
     }
@@ -1154,6 +1205,9 @@ footer{
             @media (min-width: 360px) and (max-width: 540px){
                 height: 350px;
                 width: 100%;                
+            }
+            @media (min-width: 1400px) and (max-width: 2000px){
+                width: 35vw;
             }
         }
     }
