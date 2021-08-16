@@ -265,8 +265,11 @@
             @media (min-width: 360px) and (max-width: 540px){
                 width: 100%;
             }
-            @media (min-width: 1200px) and (max-width: 1400px){
+            @media (min-width: 1200px) and (max-width: 1300px){
                 margin-top: 7rem;
+            }
+            @media (min-width: 1400px) and (max-width: 2000px){
+                margin-top: 0;
             }
             
         }
@@ -365,6 +368,7 @@
             font-weight: 600;                
         }
     }
+    
 }
 /*Aca comienza el espacio de stickers */
 .containerGeneralStickers{
@@ -551,6 +555,11 @@ footer{
                 color: $bgColorBlanco;
                 font-family: $fontFamilyGeneral;
                 font-size: 20px;
+
+                @media (max-width: 300px){
+                    font-size: 1rem;
+                    margin-top: 0.5rem;
+                }
             }
             
         }
@@ -572,6 +581,11 @@ footer{
                 color: $bgColorBlanco;
                 font-family: $fontFamilyGeneral;
                 font-size: 20px;
+
+                @media (max-width: 300px){
+                    font-size: 1rem;
+                    margin-top: 0.5rem;
+                }
             }
             
         }
@@ -631,6 +645,12 @@ footer{
             margin-top: 1rem;
             margin-left: 0;
         }
+        @media (min-width: 992px) and (max-width: 1200px){
+            text-align: center;
+            font-size: 5em;
+            margin-top: 1rem;
+            margin-left: 0;
+        }
         
     }
     @media (min-width: 360px) and (max-width: 540px){
@@ -650,7 +670,16 @@ footer{
         background-image: url("/img/imgProductos/imgProducto\ .jpg");
         display: flex;
         flex-direction: column;
-    }    
+    }
+    @media (min-width: 992px) and (max-width: 1200px){
+        height: 120px;
+        width: 100%;
+        margin-top: 0;
+        text-align: center;
+        background-image: url("/img/imgProductos/imgProducto\ .jpg");
+        display: flex;
+        flex-direction: column;
+    }     
 }
 
 .container__tituloProductos__h2{
@@ -668,6 +697,9 @@ footer{
         font-size: 3rem;
         text-align: center;
     }
+    @media (min-width: 1400px) and (max-width: 2000px){
+            font-weight: 700;
+        }
         
 }
 
@@ -727,13 +759,10 @@ footer{
 
                         @media (min-width: 360px) and (max-width: 540px){
                             height: 40vh;
-                            width: 85vw;
+                            width: 80vw;
                             margin: 0;
                         }   
-                    }
-                    @media (min-width: 360px) and (max-width: 540px){
-                        
-                    }
+                    }                    
                 }
                 @media (min-width: 360px) and (max-width: 540px){
                     height: 450px;
@@ -804,7 +833,17 @@ footer{
                 font-size: 3rem;
                 color: $bgColorBlanco;
                 margin-bottom: 1rem;
-            }  
+            }
+            @media (min-width: 992px) and (max-width: 1200px){
+                    color: $bgColorBlanco;
+                    font-weight: 600;
+            }
+            
+            @media (min-width: 1400px) and (max-width: 2000px){                
+                color: $bgColorBlanco;
+                font-weight: 600;
+            }
+            
         }
     }
 
@@ -817,9 +856,7 @@ footer{
         @media (min-width: 360px) and (max-width: 540px){
             font-size: 1rem;
         }
-        @media (min-width: 540px) and (max-width: 992px){
-
-        }  
+        
     }
     .col__titulo__parrafo2{
             color: $bgColorBlanco;
@@ -837,9 +874,13 @@ footer{
     @media (min-width: 360px) and (max-width: 540px){
         height: 40%;
     }
-    @media (min-width: 540px) and (max-width: 992px){
+    @media (min-width: 540px) and (max-width: 768px){
         height: 60%;
-    } 
+    }
+    @media (min-width: 768px) and (max-width: 992px){
+        height: 55vh;
+    }
+    
 }
 
 .container__titulos__descarga{
@@ -855,7 +896,14 @@ footer{
         @media (min-width: 360px) and (max-width: 540px){
             font-size: 2rem;
             text-align: center;
-        } 
+        }
+        @media (min-width: 768px) and (max-width: 992px){
+            font-weight: 600;
+        }
+        @media (min-width: 992px) and (max-width: 1400px){
+            font-weight: 600;
+        }
+         
     }
     .container__descargas__iframe{
         .container__descargas__iframe{
@@ -870,7 +918,15 @@ footer{
         @media (min-width: 540px) and (max-width: 992px){
             width: 100%;
             height: 400px;
-        } 
+        }
+        @media (min-width: 992px) and (max-width: 1400px){
+            width: 100%;
+            height: 400px;
+        }
+        @media (min-width: 1400px) and (max-width: 2000px){                
+            width: 100%;
+            height: 400px;
+        }  
     }
     .container__enlacesDeBusqueda{
         .col__enlaces{
@@ -882,6 +938,14 @@ footer{
                 margin-top: 1rem;
                 text-align: center;
                 font-size: 2rem;
+            }
+            @media (min-width: 768px) and (max-width: 992px){
+                font-weight: 600;
+                margin-top: 1rem;
+            }
+            @media (min-width: 992px) and (max-width: 1400px){
+                font-weight: 600;
+                margin-top: 1rem;
             } 
         }
         .col__enlaces__stl{
@@ -941,6 +1005,11 @@ footer{
                 @media (min-width: 360px) and (max-width: 540px){
                     border-radius: 200px;
                     margin-top: 0,5rem;
+                }
+                @media (min-width: 992px) and (max-width: 1300px){
+                    width: 100vw;
+                    height: 40vh;
+                    margin-bottom: 1rem;
                 }                
             }
             
@@ -972,12 +1041,23 @@ footer{
 	            font-size: 4rem;
 	            text-align: center;
 
+                @media (max-width: 300px){
+                    font-size: 2.5rem;
+                }
                 @media (min-width: 360px) and (max-width: 540px){
                     font-size: 3rem;
                 }
                 @media (min-width: 540px) and (max-width: 992px){
                     font-size: 3rem;
                 }
+                @media (min-width: 992px) and (max-width: 1400px){
+                    font-size: 3rem;
+                }
+                
+            }
+
+            @media (max-width: 300px){
+                width: 100vw;
             }
             @media (min-width: 360px) and (max-width: 540px){
                 height: 4rem;                
@@ -985,6 +1065,9 @@ footer{
             @media (min-width: 540px) and (max-width: 992px){
                 height: 4rem;
                 margin-top: 1rem;
+            }
+            @media (min-width: 992px) and (max-width: 1400px){
+                width: 20vw;
             }
         }
         .section__instagram{
@@ -1009,6 +1092,15 @@ footer{
                 color: $bgColorCeleste1;
 	            font-family: $fontFamilyGeneral;
 	            font-size: 20px;
+                
+                @media (max-width: 300px){
+                    font-size: 0.9rem;
+                    
+                }
+            }
+
+            @media (max-width: 300px){
+                width: 100vw;
             }
             @media (min-width: 360px) and (max-width: 540px){
                 height: 4rem;                
@@ -1022,7 +1114,7 @@ footer{
             padding: 10px;
             height: 5rem;
             border-radius: 20px;
-     
+
             .mail__link{
                 margin-left: 1.3rem;	
                 width: 55px;
@@ -1039,6 +1131,14 @@ footer{
                 color: $bgColorCeleste1;
                 font-family: $fontFamilyGeneral;
                 font-size: 20px;
+
+                @media (max-width: 300px){
+                    font-size: 0.9rem;                    
+                }
+            }
+
+            @media (max-width: 300px){
+                width: 100vw;
             }
             @media (min-width: 360px) and (max-width: 540px){
                 height: 4rem;
@@ -1049,6 +1149,14 @@ footer{
                 margin-bottom: 2rem;               
             }
         }
+        @media (max-width: 300px){
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        @media (min-width: 992px) and (max-width: 1300px){
+            margin-bottom: 1rem;
+        }
+        
     }
 }
 
@@ -1065,16 +1173,31 @@ footer{
             color: $bgColorCeleste1;
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
+
+            @media (max-width: 300px){
+                font-size: 2rem;
+            }
             @media (min-width: 360px) and (max-width: 540px){
                 font-size: 2rem;                
             }
         }
         .section__map__iframe{
             border-radius: 8px;
+
+            @media (max-width: 300px){
+                width: 100%;
+                height: 40vh;
+            }
             @media (min-width: 360px) and (max-width: 540px){
                 height: 300px;
                 width: 100%;
                 margin-bottom: 1rem;                
+            }
+            @media (min-width: 992px) and (max-width: 1400px){
+                width: 35vw;
+            }
+            @media (min-width: 1400px) and (max-width: 2000px){
+                width: 35vw;
             }
         }
         
@@ -1086,6 +1209,11 @@ footer{
             color: $bgColorCeleste1;
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
+
+            @media (max-width: 300px){
+                font-size: 2rem;
+                margin-top: 1rem;
+            }
             @media (min-width: 360px) and (max-width: 540px){
                 font-size: 2rem;                
             }
@@ -1118,8 +1246,16 @@ footer{
                 .section__form__input{
                     margin: 2rem;
                     
+                    @media (max-width: 300px){
+                        width: 25vw;
+                        margin: 0.5rem;
+                        
+                    }
                     @media (min-width: 360px) and (max-width: 540px){
                         width: 130%;                
+                    }
+                    @media (min-width: 992px) and (max-width: 1400px){
+                        width: 10vw;
                     }
                 }
             }
@@ -1129,6 +1265,11 @@ footer{
                 .section__form__input__textArea{
                     width: 90%;
                     height: 70%;
+
+                    @media (max-width: 300px){
+                        height: 10vh;
+                        margin-bottom: 0.5rem;
+                    }
                     @media (min-width: 360px) and (max-width: 540px){
                         height: 100px;
                         margin-bottom: 1rem;                
@@ -1151,9 +1292,21 @@ footer{
                     transition: 0.5s;
                 }
             }
+
+            @media (max-width: 300px){
+                height: 40vh;
+                width: 100%;
+            }
             @media (min-width: 360px) and (max-width: 540px){
                 height: 350px;
                 width: 100%;                
+            }
+            @media (min-width: 992px) and (max-width: 1300px){
+                width: 35vw;
+                margin-top: 2rem;
+            }
+            @media (min-width: 1400px) and (max-width: 2000px){
+                width: 35vw;
             }
         }
     }
@@ -1272,6 +1425,10 @@ footer{
                 font-size: 3rem;
                 margin-top: 1rem;
             }
+            @media (min-width: 992px) and (max-width: 1300px){
+                font-size: 3rem;
+                font-weight: 600;
+            }
         }
         
         
@@ -1288,6 +1445,13 @@ footer{
             @media (min-width: 540px) and (max-width: 992px){
                 font-size: 2rem;
                 margin-bottom: 2rem;
+            }
+            @media (min-width: 992px) and (max-width: 1300px){
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+            }
+            @media (min-width: 1300px) and (max-width: 1400px){
+                font-size: 1.5rem;
             }
         }
     }
