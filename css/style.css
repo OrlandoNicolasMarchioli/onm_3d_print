@@ -377,6 +377,11 @@
     margin-bottom: 0rem;
   }
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .columna__titulo .columna__video {
+    width: 90vw;
+  }
+}
 @media (min-width: 992px) and (max-width: 1200px) {
   .columna__titulo {
     margin-bottom: 2rem;
@@ -906,12 +911,12 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 }
 @media (min-width: 360px) and (max-width: 540px) {
   .container__busqueda {
-    height: 40%;
+    height: 45%;
   }
 }
 @media (min-width: 540px) and (max-width: 768px) {
   .container__busqueda {
-    height: 60%;
+    height: 70%;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -929,6 +934,7 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 2.5rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 @media (min-width: 360px) and (max-width: 540px) {
   .container__titulos__descarga .col__tituloDescarga {
@@ -1560,6 +1566,13 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   margin-bottom: 2rem;
   text-align: center;
 }
+@media (max-width: 360px) {
+  .container__tituloMates__h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+}
 @media (min-width: 360px) and (max-width: 540px) {
   .container__tituloMates__h2 {
     font-size: 3rem;
@@ -1586,6 +1599,12 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 2rem;
+}
+@media (max-width: 360px) {
+  .container__general__mates .container__mates .container__mates__h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
 }
 @media (min-width: 360px) and (max-width: 540px) {
   .container__general__mates .container__mates .container__mates__h2 {
@@ -1713,7 +1732,20 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   margin-bottom: 2rem;
   text-align: center;
 }
-
+@media (max-width: 360px) {
+  .container__tituloMacetas__h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__tituloMacetas__h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+}
 .container__general__macetas {
   background-color: #0DCAF0;
   border-radius: 8px;
@@ -1729,6 +1761,17 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__macetas .container__macetas .container__macetas__h2 {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__macetas .container__macetas .container__macetas__h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+}
 .container__general__macetas .container__macetas .container__macetas__maceta {
   height: 400px;
   width: 400px;
@@ -1737,6 +1780,35 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 .container__general__macetas .container__macetas .container__macetas__maceta:hover {
   transform: scale(1.1, 1.1);
   transition: 1s;
+}
+@media (max-width: 300px) {
+  .container__general__macetas .container__macetas .container__macetas__maceta {
+    width: 100%;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__macetas .container__macetas .container__macetas__maceta {
+    height: 40vh;
+    width: 80vw;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__macetas .container__macetas .container__macetas__maceta {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container__general__macetas .container__macetas .container__macetas__maceta {
+    height: 275px;
+    width: 275px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container__general__macetas .container__macetas .container__macetas__maceta {
+    height: 300px;
+    width: 300px;
+  }
 }
 .container__general__macetas .container__macetas__ultimaFila {
   margin-top: 2rem;
@@ -1748,6 +1820,17 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__macetas .container__macetas__ultimaFila .container__macetas__h2 {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__macetas .container__macetas__ultimaFila .container__macetas__h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+}
 .container__general__macetas .container__macetas__ultimaFila .container__macetas__maceta {
   height: 400px;
   width: 400px;
@@ -1756,6 +1839,47 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 .container__general__macetas .container__macetas__ultimaFila .container__macetas__maceta:hover {
   transform: scale(1.1, 1.1);
   transition: 1s;
+}
+@media (max-width: 300px) {
+  .container__general__macetas .container__macetas__ultimaFila .container__macetas__maceta {
+    width: 100%;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__macetas .container__macetas__ultimaFila .container__macetas__maceta {
+    height: 40vh;
+    width: 80vw;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__macetas .container__macetas__ultimaFila .container__macetas__maceta {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container__general__macetas .container__macetas__ultimaFila .container__macetas__maceta {
+    height: 275px;
+    width: 275px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container__general__macetas .container__macetas__ultimaFila .container__macetas__maceta {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__macetas {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__macetas {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 /* fin de seccion macetas */
@@ -1769,7 +1893,20 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   margin-bottom: 2rem;
   text-align: center;
 }
-
+@media (max-width: 360px) {
+  .container__tituloSoportes__h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__tituloSoportes__h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+}
 .container__general__soportes {
   background-color: #0DCAF0;
   border-radius: 8px;
@@ -1785,6 +1922,17 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__soportes .container__soportes .container__soportes__h2 {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__soportes .container__soportes .container__soportes__h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+}
 .container__general__soportes .container__soportes .container__soportes__soporte {
   height: 400px;
   width: 400px;
@@ -1793,6 +1941,35 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 .container__general__soportes .container__soportes .container__soportes__soporte:hover {
   transform: scale(1.1, 1.1);
   transition: 1s;
+}
+@media (max-width: 300px) {
+  .container__general__soportes .container__soportes .container__soportes__soporte {
+    width: 100%;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__soportes .container__soportes .container__soportes__soporte {
+    height: 40vh;
+    width: 80vw;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__soportes .container__soportes .container__soportes__soporte {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container__general__soportes .container__soportes .container__soportes__soporte {
+    height: 275px;
+    width: 275px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container__general__soportes .container__soportes .container__soportes__soporte {
+    height: 300px;
+    width: 300px;
+  }
 }
 .container__general__soportes .container__soportes__ultimaFila {
   margin-top: 2rem;
@@ -1804,6 +1981,17 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__soportes .container__soportes__ultimaFila .container__soportes__h2 {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__soportes .container__soportes__ultimaFila .container__soportes__h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+}
 .container__general__soportes .container__soportes__ultimaFila .container__soportes__soporte {
   height: 400px;
   width: 400px;
@@ -1812,6 +2000,47 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 .container__general__soportes .container__soportes__ultimaFila .container__soportes__soporte:hover {
   transform: scale(1.1, 1.1);
   transition: 1s;
+}
+@media (max-width: 300px) {
+  .container__general__soportes .container__soportes__ultimaFila .container__soportes__soporte {
+    width: 100%;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__soportes .container__soportes__ultimaFila .container__soportes__soporte {
+    height: 40vh;
+    width: 80vw;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__soportes .container__soportes__ultimaFila .container__soportes__soporte {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container__general__soportes .container__soportes__ultimaFila .container__soportes__soporte {
+    height: 275px;
+    width: 275px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container__general__soportes .container__soportes__ultimaFila .container__soportes__soporte {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__soportes {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__soportes {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 /* fin de seccion soportes */
@@ -1824,6 +2053,18 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   margin-top: 3rem;
   margin-bottom: 2rem;
   text-align: center;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__tituloLamparas__h2 {
+    margin-top: 6rem;
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__tituloLamparas__h2 {
+    margin-top: 6rem;
+    font-size: 3rem;
+  }
 }
 
 .container__general__lamparas {
@@ -1841,6 +2082,17 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__lamparas .container__lamparas .container__lamparas__h2 {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__lamparas .container__lamparas .container__lamparas__h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+}
 .container__general__lamparas .container__lamparas .container__lamparas__lampara {
   height: 500px;
   width: 500px;
@@ -1849,6 +2101,35 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 .container__general__lamparas .container__lamparas .container__lamparas__lampara:hover {
   transform: scale(1.1, 1.1);
   transition: 0.5s;
+}
+@media (max-width: 300px) {
+  .container__general__lamparas .container__lamparas .container__lamparas__lampara {
+    width: 100%;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__lamparas .container__lamparas .container__lamparas__lampara {
+    height: 40vh;
+    width: 80vw;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__lamparas .container__lamparas .container__lamparas__lampara {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container__general__lamparas .container__lamparas .container__lamparas__lampara {
+    height: 275px;
+    width: 275px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container__general__lamparas .container__lamparas .container__lamparas__lampara {
+    height: 300px;
+    width: 300px;
+  }
 }
 .container__general__lamparas .container__lamparas__ultimaFila {
   margin-top: 2rem;
@@ -1860,6 +2141,17 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__lamparas .container__lamparas__ultimaFila .container__lamparas__h2 {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__lamparas .container__lamparas__ultimaFila .container__lamparas__h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+}
 .container__general__lamparas .container__lamparas__ultimaFila .container__lamparas__lampara {
   height: 500px;
   width: 500px;
@@ -1868,6 +2160,47 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 .container__general__lamparas .container__lamparas__ultimaFila .container__lamparas__lampara:hover {
   transform: scale(1.1, 1.1);
   transition: 0.5s;
+}
+@media (max-width: 300px) {
+  .container__general__lamparas .container__lamparas__ultimaFila .container__lamparas__lampara {
+    width: 100%;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__lamparas .container__lamparas__ultimaFila .container__lamparas__lampara {
+    height: 40vh;
+    width: 80vw;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__lamparas .container__lamparas__ultimaFila .container__lamparas__lampara {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container__general__lamparas .container__lamparas__ultimaFila .container__lamparas__lampara {
+    height: 275px;
+    width: 275px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container__general__lamparas .container__lamparas__ultimaFila .container__lamparas__lampara {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__lamparas {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__lamparas {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 /* fin de seccion lamparas */
@@ -1880,6 +2213,18 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   margin-top: 3rem;
   margin-bottom: 2rem;
   text-align: center;
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__tituloLapicerosYOrganizadores__h2 {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__tituloLapicerosYOrganizadores__h2 {
+    margin-top: 3rem;
+    font-size: 3rem;
+  }
 }
 
 .container__general__LapicerosYOrganizadores {
@@ -1897,6 +2242,17 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores .container__LapicerosYOrganizadores__h2 {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores .container__LapicerosYOrganizadores__h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+}
 .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores .container__LyOs__LyO {
   height: 500px;
   width: 500px;
@@ -1905,6 +2261,35 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores .container__LyOs__LyO:hover {
   transform: scale(1.1, 1.1);
   transition: 0.5s;
+}
+@media (max-width: 300px) {
+  .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores .container__LyOs__LyO {
+    width: 100%;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores .container__LyOs__LyO {
+    height: 40vh;
+    width: 80vw;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores .container__LyOs__LyO {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores .container__LyOs__LyO {
+    height: 275px;
+    width: 275px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores .container__LyOs__LyO {
+    height: 300px;
+    width: 300px;
+  }
 }
 .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores__ultimaFila {
   margin-top: 2rem;
@@ -1916,6 +2301,17 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores__ultimaFila .container__LapicerosYOrganizadores__h2 {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores__ultimaFila .container__LapicerosYOrganizadores__h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+}
 .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores__ultimaFila .container__LyOs__LyO {
   height: 500px;
   width: 500px;
@@ -1924,6 +2320,47 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores__ultimaFila .container__LyOs__LyO:hover {
   transform: scale(1.1, 1.1);
   transition: 0.5s;
+}
+@media (max-width: 300px) {
+  .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores__ultimaFila .container__LyOs__LyO {
+    width: 100%;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores__ultimaFila .container__LyOs__LyO {
+    height: 40vh;
+    width: 80vw;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores__ultimaFila .container__LyOs__LyO {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores__ultimaFila .container__LyOs__LyO {
+    height: 275px;
+    width: 275px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container__general__LapicerosYOrganizadores .container__LapicerosYOrganizadores__ultimaFila .container__LyOs__LyO {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+  .container__general__LapicerosYOrganizadores {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 992px) {
+  .container__general__LapicerosYOrganizadores {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 /* fin de seccion lapiceros y organizadores */

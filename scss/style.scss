@@ -341,8 +341,11 @@
                 margin-bottom: 0rem;
             }
         }
-        
+        @media (min-width: 360px) and (max-width: 540px){
+            width: 90vw;
+        }
     }
+    
     @media (min-width: 992px) and (max-width: 1200px){
         margin-bottom: 2rem;
     }
@@ -870,12 +873,13 @@ footer{
         @media (min-width: 540px) and (max-width: 992px){
             font-size: 1rem;
         } 
-    }
+    }   
+
     @media (min-width: 360px) and (max-width: 540px){
-        height: 40%;
+        height: 45%;
     }
     @media (min-width: 540px) and (max-width: 768px){
-        height: 60%;
+        height: 70%;
     }
     @media (min-width: 768px) and (max-width: 992px){
         height: 55vh;
@@ -892,7 +896,9 @@ footer{
 	    font-family: $fontFamilyGeneral;
         font-size: 2.5rem;
         margin-bottom: 2rem;
+        text-align: center;
 
+    
         @media (min-width: 360px) and (max-width: 540px){
             font-size: 2rem;
             text-align: center;
@@ -1469,6 +1475,12 @@ footer{
 	margin-top: 2rem;
     margin-bottom: 2rem;
 	text-align: center;
+
+    @media (max-width: 360px){
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
     @media (min-width: 360px) and (max-width: 540px){
         font-size: 3rem;
         margin-bottom: 3rem;
@@ -1497,6 +1509,11 @@ footer{
             font-size: 2.5rem;
             font-weight: 800;
             margin-bottom: 2rem;
+
+            @media (max-width: 360px){
+                font-size: 1.5rem;
+                margin-top: 2rem;
+            }
             @media (min-width: 360px) and (max-width: 540px){           
                 margin-top: 2rem;
             }
@@ -1551,6 +1568,8 @@ footer{
             font-size: 2.5rem;
             font-weight: 800;
             margin-bottom: 2rem;
+
+            
             @media (min-width: 360px) and (max-width: 540px){           
                 margin-top: 2rem;
             }
@@ -1610,6 +1629,20 @@ footer{
 	margin-top: 3rem;
     margin-bottom: 2rem;
 	text-align: center;
+
+    @media (max-width: 360px){
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+    @media (min-width: 360px) and (max-width: 540px){
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+    @media (min-width: 540px) and (max-width: 992px){
+        
+    }
 }
 
 .container__general__macetas{
@@ -1626,6 +1659,14 @@ footer{
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
             margin-bottom: 2rem;
+
+            @media (min-width: 360px) and (max-width: 540px){           
+                margin-top: 2rem;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                margin-top: 2rem;
+                font-size: 3rem;
+            }
         }
 
         .container__macetas__maceta{
@@ -1636,6 +1677,26 @@ footer{
             &:hover{
                 transform: scale(1.1,1.1);
                 transition: 1s;
+            }
+
+            @media (max-width: 300px){
+                width: 100%;
+            }
+            @media (min-width: 360px) and (max-width: 540px){
+                height: 40vh;
+                width: 80vw;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                height: 400px;
+                width: 400px;
+            }
+            @media (min-width: 992px) and (max-width: 1200px){
+                height: 275px;
+                width: 275px;
+            }
+            @media (min-width: 1200px) and (max-width: 1400px){
+                height: 300px;
+                width: 300px;
             }
         }        
     }
@@ -1649,6 +1710,13 @@ footer{
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
             margin-bottom: 2rem;
+            @media (min-width: 360px) and (max-width: 540px){           
+                margin-top: 2rem;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                margin-top: 2rem;
+                font-size: 3rem;
+            }
         }
 
         .container__macetas__maceta{
@@ -1660,7 +1728,34 @@ footer{
                 transform: scale(1.1,1.1);
                 transition: 1s;
             }
+            @media (max-width: 300px){
+                width: 100%;
+            }
+            @media (min-width: 360px) and (max-width: 540px){
+                height: 40vh;
+                width: 80vw;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                height: 400px;
+                width: 400px;
+            }
+            @media (min-width: 992px) and (max-width: 1200px){
+                height: 275px;
+                width: 275px;
+            }
+            @media (min-width: 1200px) and (max-width: 1400px){
+                height: 300px;
+                width: 300px;
+            }
         }
+    }
+    @media (min-width: 360px) and (max-width: 540px){
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
+    @media (min-width: 540px) and (max-width: 992px){
+        font-size: 2rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -1676,6 +1771,20 @@ footer{
 	margin-top: 3rem;
     margin-bottom: 2rem;
 	text-align: center;
+
+    @media (max-width: 360px){
+        font-size: 2.2rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+    @media (min-width: 360px) and (max-width: 540px){
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+    @media (min-width: 540px) and (max-width: 992px){
+        
+    }
 }
 
 .container__general__soportes{
@@ -1692,6 +1801,14 @@ footer{
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
             margin-bottom: 2rem;
+
+            @media (min-width: 360px) and (max-width: 540px){           
+                margin-top: 2rem;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                margin-top: 2rem;
+                font-size: 3rem;
+            }
         }
 
         .container__soportes__soporte{
@@ -1702,6 +1819,25 @@ footer{
             &:hover{
                 transform: scale(1.1,1.1);
                 transition: 1s;
+            }
+            @media (max-width: 300px){
+                width: 100%;
+            }
+            @media (min-width: 360px) and (max-width: 540px){
+                height: 40vh;
+                width: 80vw;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                height: 400px;
+                width: 400px;
+            }
+            @media (min-width: 992px) and (max-width: 1200px){
+                height: 275px;
+                width: 275px;
+            }
+            @media (min-width: 1200px) and (max-width: 1400px){
+                height: 300px;
+                width: 300px;
             }
         }        
     }
@@ -1715,6 +1851,14 @@ footer{
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
             margin-bottom: 2rem;
+
+            @media (min-width: 360px) and (max-width: 540px){           
+                margin-top: 2rem;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                margin-top: 2rem;
+                font-size: 3rem;
+            }
         }
 
         .container__soportes__soporte{
@@ -1726,7 +1870,34 @@ footer{
                 transform: scale(1.1,1.1);
                 transition: 1s;
             }
+            @media (max-width: 300px){
+                width: 100%;
+            }
+            @media (min-width: 360px) and (max-width: 540px){
+                height: 40vh;
+                width: 80vw;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                height: 400px;
+                width: 400px;
+            }
+            @media (min-width: 992px) and (max-width: 1200px){
+                height: 275px;
+                width: 275px;
+            }
+            @media (min-width: 1200px) and (max-width: 1400px){
+                height: 300px;
+                width: 300px;
+            }
         } 
+    }
+    @media (min-width: 360px) and (max-width: 540px){
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
+    @media (min-width: 540px) and (max-width: 992px){
+        font-size: 2rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -1742,6 +1913,15 @@ footer{
 	margin-top: 3rem;
     margin-bottom: 2rem;
 	text-align: center;
+
+    @media (min-width: 360px) and (max-width: 540px){           
+        margin-top: 6rem;
+        font-size: 2.5rem;
+    }
+    @media (min-width: 540px) and (max-width: 992px){
+        margin-top: 6rem;
+        font-size: 3rem;
+    }
 }
 
 .container__general__lamparas{
@@ -1758,6 +1938,14 @@ footer{
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
             margin-bottom: 2rem;
+
+            @media (min-width: 360px) and (max-width: 540px){           
+                margin-top: 2rem;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                margin-top: 2rem;
+                font-size: 3rem;
+            }
         }
 
         .container__lamparas__lampara{
@@ -1768,6 +1956,26 @@ footer{
             &:hover{
                 transform: scale(1.1,1.1);
                 transition: 0.5s;
+                
+            }
+            @media (max-width: 300px){
+                width: 100%;
+            }
+            @media (min-width: 360px) and (max-width: 540px){
+                height: 40vh;
+                width: 80vw;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                height: 400px;
+                width: 400px;
+            }
+            @media (min-width: 992px) and (max-width: 1200px){
+                height: 275px;
+                width: 275px;
+            }
+            @media (min-width: 1200px) and (max-width: 1400px){
+                height: 300px;
+                width: 300px;
             }
         }
     }
@@ -1781,6 +1989,14 @@ footer{
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
             margin-bottom: 2rem;
+
+            @media (min-width: 360px) and (max-width: 540px){           
+                margin-top: 2rem;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                margin-top: 2rem;
+                font-size: 3rem;
+            }
         }
 
         .container__lamparas__lampara{
@@ -1792,7 +2008,34 @@ footer{
                 transform: scale(1.1,1.1);
                 transition: 0.5s;
             }
+            @media (max-width: 300px){
+                width: 100%;
+            }
+            @media (min-width: 360px) and (max-width: 540px){
+                height: 40vh;
+                width: 80vw;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                height: 400px;
+                width: 400px;
+            }
+            @media (min-width: 992px) and (max-width: 1200px){
+                height: 275px;
+                width: 275px;
+            }
+            @media (min-width: 1200px) and (max-width: 1400px){
+                height: 300px;
+                width: 300px;
+            }
         }
+    }
+    @media (min-width: 360px) and (max-width: 540px){
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
+    @media (min-width: 540px) and (max-width: 992px){
+        font-size: 2rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -1808,6 +2051,15 @@ footer{
 	margin-top: 3rem;
     margin-bottom: 2rem;
 	text-align: center;
+
+    @media (min-width: 360px) and (max-width: 540px){           
+        margin-top: 3rem;
+        font-size: 2.5rem;
+    }
+    @media (min-width: 540px) and (max-width: 992px){
+        margin-top: 3rem;
+        font-size: 3rem;
+    }
 }
 
 .container__general__LapicerosYOrganizadores{
@@ -1824,6 +2076,14 @@ footer{
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
             margin-bottom: 2rem;
+
+            @media (min-width: 360px) and (max-width: 540px){           
+                margin-top: 2rem;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                margin-top: 2rem;
+                font-size: 3rem;
+            }
         }
 
         .container__LyOs__LyO{
@@ -1834,6 +2094,25 @@ footer{
             &:hover{
                 transform: scale(1.1,1.1);
                 transition: 0.5s;
+            }
+            @media (max-width: 300px){
+                width: 100%;
+            }
+            @media (min-width: 360px) and (max-width: 540px){
+                height: 40vh;
+                width: 80vw;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                height: 400px;
+                width: 400px;
+            }
+            @media (min-width: 992px) and (max-width: 1200px){
+                height: 275px;
+                width: 275px;
+            }
+            @media (min-width: 1200px) and (max-width: 1400px){
+                height: 300px;
+                width: 300px;
             }        
         }
     }
@@ -1847,6 +2126,14 @@ footer{
             font-family: $fontFamilyGeneral;
             font-size: 2.5rem;
             margin-bottom: 2rem;
+
+            @media (min-width: 360px) and (max-width: 540px){           
+                margin-top: 2rem;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                margin-top: 2rem;
+                font-size: 3rem;
+            }
         }
 
         .container__LyOs__LyO{
@@ -1857,10 +2144,36 @@ footer{
             &:hover{
                 transform: scale(1.1,1.1);
                 transition: 0.5s;
+            }
+            @media (max-width: 300px){
+                width: 100%;
+            }
+            @media (min-width: 360px) and (max-width: 540px){
+                height: 40vh;
+                width: 80vw;
+            }
+            @media (min-width: 540px) and (max-width: 992px){
+                height: 400px;
+                width: 400px;
+            }
+            @media (min-width: 992px) and (max-width: 1200px){
+                height: 275px;
+                width: 275px;
+            }
+            @media (min-width: 1200px) and (max-width: 1400px){
+                height: 300px;
+                width: 300px;
             }        
         }
     }
-
+    @media (min-width: 360px) and (max-width: 540px){
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
+    @media (min-width: 540px) and (max-width: 992px){
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
 }
 
 /* fin de seccion lapiceros y organizadores */
