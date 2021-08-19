@@ -691,7 +691,7 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 @media (min-width: 360px) and (max-width: 540px) {
   .containerImg__productos {
     height: 60px;
-    width: 95vw;
+    width: 100vw;
     margin-top: 1rem;
     text-align: center;
     background-image: url("/img/imgProductos/imgProducto .jpg");
