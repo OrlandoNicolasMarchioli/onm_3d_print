@@ -1053,8 +1053,8 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
 }
 @media (min-width: 992px) and (max-width: 1300px) {
   .contactoContainer .contacto__fotoContainer .foto__link .contacto__foto {
-    width: 100vw;
-    height: 40vh;
+    width: 98vw;
+    height: 50vh;
     margin-bottom: 1rem;
   }
 }
@@ -2362,7 +2362,5 @@ footer .section__footer__links .footer__links__ul .section__footer__links__li {
     margin-bottom: 2rem;
   }
 }
-
-/* fin de seccion lapiceros y organizadores */
 
 /*# sourceMappingURL=style.css.map */
